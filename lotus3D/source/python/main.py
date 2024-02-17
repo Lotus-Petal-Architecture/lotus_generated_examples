@@ -79,19 +79,19 @@ readcolumn("Current Price")
 lrg.write("var change = [")
 readcolumn("Change")
 
-lrg.write("var unit_prices = [")
+lrg.write("var open = [")
 readcolumn("Open")
 
-lrg.write("var total_sales = [")
+lrg.write("var high = [")
 readcolumn("High")
 
-lrg.write("var sales_change_30d = [")
+lrg.write("var low = [")
 readcolumn("Low")
 
 lrg.write("var curr_price = [")
 readcolumn("Current Price")
 
-lrg.write("var store_id = [")
+lrg.write("var vol = [")
 readcolumn("Volume")
 
 #lrg.write(f2.read())

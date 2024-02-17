@@ -536,7 +536,7 @@ for (i = 0; i < link_order_length; i++) {
   function nowPlaying (k) {
       l = link_order.indexOf(k)
 
-      volume = store_id[l]
+      volume = vol[l]
       volume = (new Intl.NumberFormat().format(volume));
 
 
@@ -549,11 +549,11 @@ for (i = 0; i < link_order_length; i++) {
 
          document.getElementById('nowplaying').innerHTML =
       '<br><br><b>Symbol</b>: ' + symbols[l] + '&nbsp; &nbsp;'  
-      + '<br><b>Current Price:</b> ' + '$' + curr_price[l] + '&nbsp; &nbsp;'
+      + '<br><b>Current Price:</b> ' + '$' + price[l] + '&nbsp; &nbsp;'
       + '<br><b>Change Since Previous Close:</b> ' + percent_change[l] + '%'
       + '<br><b>Volume:</b> ' + '$' + volume + '&nbsp; &nbsp;'
-      + '<b>Open:</b> ' + '$' + unit_prices[l] + '&nbsp; &nbsp;' +  
-      '<br><b>High:</b> ' + '$' + total_sales[l] + '&nbsp; &nbsp;' + '<b>Low:</b>' + '$' + '&nbsp; &nbsp;' + sales_change_30d[l] 
+      + '<b>Open:</b> ' + '$' + open[l] + '&nbsp; &nbsp;' +  
+      '<br><b>High:</b> ' + '$' + high[l] + '&nbsp; &nbsp;' + '<b>Low:</b>' + '$' + '&nbsp; &nbsp;' + low[l] 
       /* + '<span style="color:#0099cc;">' + quote_change + '%</span>'
 */
 

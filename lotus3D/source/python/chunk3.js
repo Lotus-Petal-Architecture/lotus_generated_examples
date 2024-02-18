@@ -21,7 +21,7 @@ function calc_percent ()
 {
   for (var i = 0; i < 2000; i++) { //convert change dollar values into percent
       var quote_change = change[i];
-      var current_price =curr_price[i];
+      var current_price =price[i];
       quote_change = (quote_change/(current_price-quote_change))*100
       quote_change = quote_change.toFixed(2);
       percent_change.push([quote_change]);
@@ -491,9 +491,6 @@ for (i = 0; i < link_order_length; i++) {
       + '<br><b>Volume:</b> ' + '$' + volume + '&nbsp; &nbsp;'
       + '<b>Open:</b> ' + '$' + open[l] + '&nbsp; &nbsp;' +  
       '<br><b>High:</b> ' + '$' + high[l] + '&nbsp; &nbsp;' + '<b>Low:</b>' + '$' + '&nbsp; &nbsp;' + low[l] 
-      /* + '<span style="color:#0099cc;">' + quote_change + '%</span>'
-*/
-
             }
 
   function datestamp (date,time) {
@@ -539,12 +536,6 @@ for (i = 0; i < link_order_length; i++) {
       l = link_order.indexOf(k)   //connects the k value -- position on lotus petal graph -- to ID for link value
       nowPlaying(k)
 
-      /*console.log(symbols[l])
-      console.log(current_price[l])
-      console.log(unit_prices[l])
-      console.log(sales_change_30d[l])
-      console.log(active_links)
-      console.log(active_links2)*/
     }
   }
 
@@ -561,8 +552,6 @@ for (i = 0; i < link_order_length; i++) {
       k = obj.label
       l = link_order.indexOf(k)   //connects the k value -- position on lotus petal graph -- to ID for link value
       var URL = "https://finance.yahoo.com/quote/" + symbols[l]
-      //console.log(symbols[l])
-      //console.log(quote_change_1h[l])
       window.open(URL, '_blank')
     }
   }

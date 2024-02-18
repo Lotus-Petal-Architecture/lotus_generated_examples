@@ -2,7 +2,7 @@
 import pandas as pandasForSortingCSV
 
 # assign dataset
-csvData = pandasForSortingCSV.read_csv("../data/quotes.csv")
+csvData = pandasForSortingCSV.read_csv("../data/CPI.csv")
 
 # displaying unsorted data frame
 print("\nBefore sorting:")
@@ -10,7 +10,7 @@ print(csvData)
 
 
 # sort data frame
-csvData.sort_values(["Volume"],
+csvData.sort_values(["Expenditure Category"],
                     axis=0,
                     ascending=[False],
                     inplace=True)
@@ -19,22 +19,23 @@ csvData.sort_values(["Volume"],
 print("\nAfter sorting:")
 print(csvData)
 
+
 csvData.to_dict()
 
 print("\nDictionary format:")
-print(csvData["Symbol"][0])
+print(csvData["Expenditure Category"][0])
 
 sortedData = csvData.to_csv(index=False)
 
 print(sortedData)
 
-sortedQuotes = open("sortedquotes.csv", "w")
+sortedQuotes = open("sortedCPI.csv", "w")
 sortedQuotes.write(sortedData)
 sortedQuotes.close()
 
-csvData = pandasForSortingCSV.read_csv("sortedquotes.csv")
+csvData = pandasForSortingCSV.read_csv("sortedCPI.csv")
 
 csvData.to_dict()
 
 print("\nDictionary format:")
-print(csvData["Symbol"][0])
+print(csvData["Expenditure Category"][0])

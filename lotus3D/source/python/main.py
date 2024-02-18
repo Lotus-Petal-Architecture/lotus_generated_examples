@@ -82,9 +82,6 @@ readcolumn("High")
 lrg.write("var low = [")
 readcolumn("Low")
 
-lrg.write("var curr_price = [")
-readcolumn("Current Price")
-
 lrg.write("var vol = [")
 readcolumn("Volume")
 

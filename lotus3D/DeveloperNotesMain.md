@@ -19,3 +19,7 @@ Thoughts on all_links chart -- a cool visualization but with limited utility:
 	For now it should be considered deprecated.
 
 working_views contain legacy column names. They are there to show the Lotus Chart in action with various amounts of data on the chart.
+
+TO DO:
+
+index.html should be dynamically generated

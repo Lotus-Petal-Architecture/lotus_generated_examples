@@ -20,8 +20,8 @@ function calc_percent ()
 
 {
   for (var i = 0; i < 2000; i++) { //convert change dollar values into percent
-      var quote_change = change[i];
-      var current_price =price[i];
+      var quote_change = col_C[i];
+      var current_price =col_B[i];
       quote_change = (quote_change/(current_price-quote_change))*100
       quote_change = quote_change.toFixed(2);
       percent_change.push([quote_change]);
@@ -92,8 +92,6 @@ assignLinks();
 
 
 //console.log(link_order)
-//console.log(symbols)
-
 
 
 //Petal Constructor - draws outline of petal
@@ -473,11 +471,11 @@ for (i = 0; i < link_order_length; i++) {
   function nowPlaying (k) {
       l = link_order.indexOf(k)
 
-      volume = vol[l]
+      volume = col_G[l]
       volume = (new Intl.NumberFormat().format(volume));
 
 
-      if (symbols[l] == undefined)
+      if (col_A[l] == undefined)
       {
         document.getElementById('nowplaying').innerHTML =''
       }
@@ -485,12 +483,12 @@ for (i = 0; i < link_order_length; i++) {
       else
 
          document.getElementById('nowplaying').innerHTML =
-      '<br><br><b>Symbol</b>: ' + symbols[l] + '&nbsp; &nbsp;'  
-      + '<br><b>Current Price:</b> ' + '$' + price[l] + '&nbsp; &nbsp;'
+      '<br><br><b>Symbol</b>: ' + col_A[l] + '&nbsp; &nbsp;'  
+      + '<br><b>Current Price:</b> ' + '$' + col_B[l] + '&nbsp; &nbsp;'
       + '<br><b>Change Since Previous Close:</b> ' + percent_change[l] + '%'
       + '<br><b>Volume:</b> ' + '$' + volume + '&nbsp; &nbsp;'
-      + '<b>Open:</b> ' + '$' + open[l] + '&nbsp; &nbsp;' +  
-      '<br><b>High:</b> ' + '$' + high[l] + '&nbsp; &nbsp;' + '<b>Low:</b>' + '$' + '&nbsp; &nbsp;' + low[l] 
+      + '<b>Open:</b> ' + '$' + col_D[l] + '&nbsp; &nbsp;' +  
+      '<br><b>High:</b> ' + '$' + col_E[l] + '&nbsp; &nbsp;' + '<b>Low:</b>' + '$' + '&nbsp; &nbsp;' + col_F[l] 
             }
 
   function datestamp (date,time) {
@@ -551,7 +549,7 @@ for (i = 0; i < link_order_length; i++) {
       obj = intersection.object
       k = obj.label
       l = link_order.indexOf(k)   //connects the k value -- position on lotus petal graph -- to ID for link value
-      var URL = "https://finance.yahoo.com/quote/" + symbols[l]
+      var URL = "https://finance.yahoo.com/quote/" + col_A[l]
       window.open(URL, '_blank')
     }
   }

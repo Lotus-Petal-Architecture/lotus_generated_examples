@@ -64,25 +64,25 @@ def readcolumn(col_name):
 
     lrg.write("]\n")
 
-lrg.write("var symbols = [")
+lrg.write("var col_A = [")
 readcolumn("Symbol")
 
-lrg.write("var price = [")
+lrg.write("var col_B = [")
 readcolumn("Current Price")
 
-lrg.write("var change = [")
+lrg.write("var col_C = [")
 readcolumn("Change")
 
-lrg.write("var open = [")
+lrg.write("var col_D = [")
 readcolumn("Open")
 
-lrg.write("var high = [")
+lrg.write("var col_E = [")
 readcolumn("High")
 
-lrg.write("var low = [")
+lrg.write("var col_F = [")
 readcolumn("Low")
 
-lrg.write("var vol = [")
+lrg.write("var col_G = [")
 readcolumn("Volume")
 
 #lrg.write(f2.read())

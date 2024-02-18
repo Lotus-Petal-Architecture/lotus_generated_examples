@@ -16,7 +16,6 @@ print('List of column names : ',
 print("\nBefore sorting:")
 print(csvData)
 
-
 # sort data frame
 csvData.sort_values(["Expenditure Category"],
                     axis=0,

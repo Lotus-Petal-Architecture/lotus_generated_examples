@@ -2,7 +2,7 @@
 import pandas as pandasForSortingCSV
 
 # assign dataset
-csvData = pandasForSortingCSV.read_csv("../data/CPI.csv")
+csvData = pandasForSortingCSV.read_csv("../data/data.csv")
 
 # displaying unsorted data frame
 print("\nBefore sorting:")
@@ -27,13 +27,13 @@ print(csvData["Expenditure Category"][0])
 
 sortedData = csvData.to_csv(index=False)
 
-print(sortedData)
+#print(sortedData)
 
-sortedQuotes = open("sortedCPI.csv", "w")
+sortedQuotes = open("sorteddata.csv", "w")
 sortedQuotes.write(sortedData)
 sortedQuotes.close()
 
-csvData = pandasForSortingCSV.read_csv("sortedCPI.csv")
+csvData = pandasForSortingCSV.read_csv("sorteddata.csv")
 
 csvData.to_dict()
 

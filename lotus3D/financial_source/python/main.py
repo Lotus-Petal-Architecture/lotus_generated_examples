@@ -23,13 +23,9 @@ sortedQuotes.close()
 
 csvData = pandasForSortingCSV.read_csv("sortedquotes.csv")
 
-#print(csvData["Symbol"][150])
-
-#print("\nLength of Dataset:")
-#length = len(csvData)
-#print(length)
-#print("\n")
-length = 150
+length = csvData.shape[0]
+print("\nNumber of Rows:")
+print(length)
 
 # open copy of lotus renderer source code to insert array values
 lrg = open("lotus_renderer_gen.js", "w")
@@ -42,8 +38,8 @@ lrg = open("lotus_renderer_gen.js", "a")
 #f2 = open("chunk2.js", "r")
 f3 = open("chunk3.js", "r")
 
-date = str(csvData["Date"][149])
-time = str(csvData["Time"][149])
+date = str(csvData["Date"][1])
+time = str(csvData["Time"][1])
 
 change=[]
 open=[]
@@ -60,15 +56,13 @@ lrg.write(date)
 lrg.write("'\n")
 
 def readcolumn(col_name):
-    for x in range(150):
+    for x in range(length):
         lrg.write("'")
         value = str(csvData[col_name][x])
         lrg.write(value)
         lrg.write("',")
 
     lrg.write("]\n")
-
-#def writevalues:
 
 lrg.write("var symbols = [")
 readcolumn("Symbol")

@@ -23,11 +23,6 @@ sortedQuotes.close()
 
 csvData = pandasForSortingCSV.read_csv("sortedquotes.csv")
 
-#print(csvData["Symbol"][150])
-
-
-
-#print("\n")
 length = csvData.shape[0]
 print("\nNumber of Rows:")
 print(length)
@@ -68,8 +63,6 @@ def readcolumn(col_name):
         lrg.write("',")
 
     lrg.write("]\n")
-
-#def writevalues:
 
 lrg.write("var symbols = [")
 readcolumn("Symbol")

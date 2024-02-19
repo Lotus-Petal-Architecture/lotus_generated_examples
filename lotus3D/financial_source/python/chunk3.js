@@ -490,7 +490,7 @@ for (i = 0; i < link_order_length; i++) {
       + '<br><b>Change Since Previous Close:</b> ' + percent_change[l] + '%'
       + '<br><b>Volume:</b> ' + '$' + volume + '&nbsp; &nbsp;'
       + '<b>Open:</b> ' + '$' + open[l] + '&nbsp; &nbsp;' +  
-      '<br><b>High:</b> ' + '$' + high[l] + '&nbsp; &nbsp;' + '<b>Low:</b>' + '$' + '&nbsp; &nbsp;' + low[l] 
+      '<br><b>High:</b> ' + '$' + high[l] + '&nbsp; &nbsp;' + '<b>Low:</b> ' + '$'  + low[l]
       /* + '<span style="color:#0099cc;">' + quote_change + '%</span>'
 */
 

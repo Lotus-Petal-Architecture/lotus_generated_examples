@@ -16,7 +16,7 @@ function init () {
   document.body.appendChild(container)
 
 
-function calc_percent ()
+function calc_percent ()   //use this function if you need to show percent changes for any of the column values
 
 {
   for (var i = 0; i < 2000; i++) { //convert change dollar values into percent
@@ -380,13 +380,12 @@ function getActiveLinks()  //sorts for a given set of values from the data obtai
       var change_value = quote[1];
       var change_index = quote[0];
 
-      if (change_value > uptrend) {
+      if (change_value > uptrend) {  // specified in index.html
         
         active_links.push(change_index);
-        //console.log(change_value)
       }
 
-      else if (change_value < downtrend) {
+      else if (change_value < downtrend) {  // specified in index.html
         change_index = quote[0]
         active_links2.push(change_index);
       }
@@ -471,8 +470,8 @@ for (i = 0; i < link_order_length; i++) {
   function nowPlaying (k) {
       l = link_order.indexOf(k)
 
-      volume = col_G[l]
-      volume = (new Intl.NumberFormat().format(volume));
+      //volume = col_G[l]    
+      //volume = (new Intl.NumberFormat().format(volume));
 
 
       if (col_A[l] == undefined)
@@ -485,10 +484,10 @@ for (i = 0; i < link_order_length; i++) {
          document.getElementById('nowplaying').innerHTML =
       '<br><br><b>Symbol</b>: ' + col_A[l] + '&nbsp; &nbsp;'  
       + '<br><b>Current Price:</b> ' + '$' + col_B[l] + '&nbsp; &nbsp;'
-      + '<br><b>Change Since Previous Close:</b> ' + percent_change[l] + '%'
-      + '<br><b>Volume:</b> ' + '$' + volume + '&nbsp; &nbsp;'
+      + '<br><b>Change Since Previous Close:</b> ' + col_C[l] + '%'
+      + '<br><b>Volume:</b> ' + '$' + col_G[l] + '&nbsp; &nbsp;'
       + '<b>Open:</b> ' + '$' + col_D[l] + '&nbsp; &nbsp;' +  
-      '<br><b>High:</b> ' + '$' + col_E[l] + '&nbsp; &nbsp;' + '<b>Low:</b>' + '$' + '&nbsp; &nbsp;' + col_F[l] 
+      '<br><b>High:</b> ' + '$' + col_E[l] + '&nbsp; &nbsp;' + '<b>Low:</b> ' + '$'  + col_F[l] 
             }
 
   function datestamp (date,time) {

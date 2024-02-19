@@ -1,8 +1,25 @@
 # importing pandas package
 import pandas as pandasForSortingCSV
 
+# import regular expressions for text search
+import re
+
+#find filename
+file_path = '../data/data.csv'
+pattern = '[\w-]+?(?=\.)'
+
+# searching the pattern
+a = re.search(pattern, file_path)
+
+# printing the match
+print(a.group())
+
+#generate newfilename
+new_CSV = a.group()
+print(new_CSV)
+
 # assign dataset
-csvData = pandasForSortingCSV.read_csv("../data/data.csv")
+csvData = pandasForSortingCSV.read_csv('../data/data.csv')
 
 # creating a list of column names by
 # calling the .columns
@@ -17,7 +34,7 @@ print("\nBefore sorting:")
 print(csvData)
 
 # sort data frame
-csvData.sort_values(["Expenditure Category"],
+csvData.sort_values(["Previous Year: Jan.2023-Jan.2024"],
                     axis=0,
                     ascending=[False],
                     inplace=True)
@@ -25,24 +42,3 @@ csvData.sort_values(["Expenditure Category"],
 # displaying sorted data frame
 print("\nAfter sorting:")
 print(csvData)
-
-
-csvData.to_dict()
-
-print("\nDictionary format:")
-print(csvData["Expenditure Category"][0])
-
-sortedData = csvData.to_csv(index=False)
-
-#print(sortedData)
-
-sortedQuotes = open("sorteddata.csv", "w")
-sortedQuotes.write(sortedData)
-sortedQuotes.close()
-
-csvData = pandasForSortingCSV.read_csv("sorteddata.csv")
-
-csvData.to_dict()
-
-print("\nDictionary format:")
-print(csvData["Expenditure Category"][0])

@@ -7,9 +7,9 @@ TO DO:
 
 - Add automatic formatting of currency values and percentages to use commas, round to two decimal places.
 
-- Get filename from file path. 
+- Get filename from file path [right now the CSV to be converted must be renamed to data.csv]. 
 
-- Validate file is CSV.
+- Validate file format is CSV.
 
 - Save sorted CSV with new filename.
 

@@ -1,6 +1,23 @@
 # importing pandas package
 import pandas as pandasForSortingCSV
 
+# import regular expressions for text search
+import re
+
+#find filename
+file_path = '../data/data.csv'
+pattern = '[\w-]+?(?=\.)'
+
+# searching the pattern
+a = re.search(pattern, file_path)
+
+# printing the match
+print(a.group())
+
+#generate newfilename
+new_CSV = a.group()
+print(new_CSV)
+
 # assign dataset
 csvData = pandasForSortingCSV.read_csv('../data/data.csv')
 

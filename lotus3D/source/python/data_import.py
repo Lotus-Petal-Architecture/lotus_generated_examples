@@ -56,10 +56,7 @@ lrg = open("lotus_renderer_gen.js", "a")
 #f2 = open("chunk2.js", "r")
 f3 = open("chunk3.js", "r")
 
-
-
-
-#generate datestamp, must be customized to specific schema and data in csv
+#generate datestamp, must be customized to reflect specific content and data schema of csv
 
 def datetime():
     date = str(csvData["Date"][1])

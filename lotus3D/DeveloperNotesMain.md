@@ -28,7 +28,7 @@ Original data views were designed to display financial quotes: a 150-symbol watc
 
 Symbols change from time to time, so these lists may not exactly match the current indexes.
 
-In order to simplify creating a chart from a "generic" CSV, functionality & formatting specific to the original quotes schema has been commented out in source/python/main.py
+The working_schemas folders contains an example with the correct column names for daily stock quotes, and an example of generic generated code that substitutes alphabetic column labels into the generated Lotus Renderer code. These are included for reference only. In theory, you could manually cut and paste values from any CSV spreadsheet into generic_spreadsheet/python/lotus_renderer_gen.js, but you probably would not want to!
 
 
 STYLE NOTES:

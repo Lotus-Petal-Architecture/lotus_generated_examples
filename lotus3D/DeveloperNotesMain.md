@@ -1,7 +1,7 @@
 
 TO DO:
 
-- Symbol lookup
+- Text search.
 
 - index.html should be dynamically generated.
 
@@ -12,6 +12,14 @@ TO DO:
 - Validate file format is CSV.
 
 - Save sorted CSV with new filename.
+
+- Pull thumbnail images when files contain URL data.
+
+- Generate multiple pages of Lotus Charts (when spreadsheets contain >2000 rows).
+
+- Import from JSON.
+
+- Choice to generate original chart format for records sets <500 rows (lower performance, but more flexibility with filters).
 
 
 DATA NOTES:

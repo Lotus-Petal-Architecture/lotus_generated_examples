@@ -17,11 +17,11 @@ print("\nBefore sorting:")
 print(csvData)
 
 # sort data frame
-csvData.sort_values(["Previous Year"],
-                    axis=0,
-                    ascending=[False],
-                    inplace=True)
+# csvData.sort_values(["Previous Year"],
+#                    axis=0,
+#                    ascending=[False],
+#                    inplace=True)
 
 # displaying sorted data frame
-print("\nAfter sorting:")
-print(csvData)
+# print("\nAfter sorting:")
+# print(csvData)

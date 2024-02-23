@@ -1,356 +1,357 @@
-Expenditure Category,"Previous Year - Jan.
+Expenditure ,Category,SubCategory,Previous Year - Jan.
 2023-
 Jan.
-2024","Previous Month - Dec.
+2024,Previous Month - Dec.
 2023-
 Jan.
-2024","Seasonally Adjusted - Oct.
+2024,Seasonally Adjusted - Oct.
 2023-
 Nov.
-2023","Seasonally Adjusted - Nov.
+2023,Seasonally Adjusted - Nov.
 2023-
 Dec.
 2023","Seasonally Adjusted  - Dec.
 2023-
 Jan.
 2024"
-All items,3.1,0.5,0.2,0.2,0.3
-Food,2.6,0.6,0.2,0.2,0.4
-Food at home,1.2,0.7,0,0.1,0.4
-Cereals and bakery products,1.5,0.2,0.3,-0.1,-0.2
-Cereals and cereal products,-0.6,0.3,0.2,-1,-0.1
-Flour and prepared flour mixes,1,2.7,1,-0.2,-1.2
-Breakfast cereal(1),-0.8,-0.8,0.8,-2.4,-0.8
-"Rice, pasta, cornmeal",-1,0.4,-0.7,0,-0.1
-Rice(1)(2)(3),-1.8,-0.6,0.4,0.1,-0.6
-Bakery products(1),2.5,0.1,0.2,-0.4,0.1
-Bread(1)(2),3.2,0.3,-0.4,-0.3,0.3
-White bread(1)(3),3.3,0.5,-1.4,0.2,0.5
-Bread other than white(1)(3),2.8,0,0.6,-1,0
-"Fresh biscuits, rolls, muffins(2)",2.9,0.2,1.1,-0.4,-0.3
-"Cakes, cupcakes, and cookies(1)",1,0.1,0.7,-0.2,0.1
-Cookies(1)(3),0.6,0.3,0.2,0.1,0.3
-Fresh cakes and cupcakes(1)(3),1.7,-1,1,-0.4,-1
-Other bakery products,2.8,0.1,0.7,0.6,-0.8
-"Fresh sweetrolls, coffeecakes, doughnuts(1)(3)",2.6,-0.7,0.2,0.2,-0.7
-"Crackers, bread, and cracker products(3)",5.1,0,1.3,0.9,-1
-"Frozen and refrigerated bakery products, pies, tarts, turnovers(3)",0.9,0.2,0.3,0.4,-0.3
-"Meats, poultry, fish, and eggs",-0.9,-0.1,-0.2,0.3,0
-"Meats, poultry, and fish",2.1,-0.3,-0.3,0.1,-0.2
-Meats,3.5,-0.3,-0.3,0.3,-0.1
-Beef and veal,7.7,-0.3,0.1,0.6,-0.3
-Uncooked ground beef(1),5.5,-1.3,-1.5,-0.7,-1.3
-Uncooked beef roasts(2),6.7,-0.7,1.8,-1.2,0.5
-Uncooked beef steaks(2),10.7,0.6,-0.8,2.2,0.9
-Uncooked other beef and veal(1)(2),5,0.3,1.6,-1.1,0.3
-Pork,-0.4,-0.3,-1.1,0.2,-0.3
-"Bacon, breakfast sausage, and related products(2)",-1.3,-0.4,-1.4,-0.1,-0.6
-Bacon and related products(3),0.6,-2.1,-2.4,0.5,-1.3
-Breakfast sausage and related products(2)(3),-3.4,2.1,0.1,-1,0.2
-Ham,-3,-0.5,-0.5,1.4,-3.1
-"Ham, excluding canned(3)",-3.6,-0.8,-0.8,1.6,-3.4
-Pork chops(1),3.6,0.4,-2.4,-0.9,0.4
-"Other pork including roasts, steaks, and ribs(2)",1.4,-0.4,-0.3,0,0.9
-Other meats,1.4,-0.3,0,-0.2,0.3
-Frankfurters(3),7.1,0.9,0.4,0.1,1.9
-Lunchmeats(1)(2)(3),1.3,-0.8,0,0.2,-0.8
-Poultry(1),1.7,0.3,-0.9,-0.4,0.3
-Chicken(1)(2),1.2,-0.2,-0.4,0.1,-0.2
-Fresh whole chicken(1)(3),3.7,0.5,1.4,-0.4,0.5
-Fresh and frozen chicken parts(1)(3),0.4,-0.6,-1.1,0.5,-0.6
-Other uncooked poultry including turkey(2),3.7,2.6,0,-1,0.2
-Fish and seafood,-2.6,-0.8,0.3,-0.2,-1.3
-Fresh fish and seafood(1)(2),-3.9,0.1,-0.3,-1,0.1
-Processed fish and seafood(2),-1.3,-1.7,0.1,0,-1.2
-Shelf stable fish and seafood(3),1.9,-3.8,1.1,0.4,-2.9
-Frozen fish and seafood(3),-1.2,0.3,-0.1,-0.7,0.9
-Eggs,-28.6,1.8,2.6,3.7,3.4
-Dairy and related products,-1.1,0.4,0,0.1,0.2
-Milk(2),-2.4,-0.8,-0.1,0.1,-0.6
-Fresh whole milk(3),-3.1,-1,0,0.3,-1.1
-Fresh milk other than whole(1)(2)(3),-1.8,-0.9,0.1,0.6,-0.9
-Cheese and related products(1),-2.1,1,-0.7,-0.2,1
-Ice cream and related products,0.2,-1.2,0.8,0.5,-1.7
-Other dairy and related products(2),0,1.6,-0.2,-0.1,0.9
-Fruits and vegetables,1.1,1.3,0.1,0,0.4
-Fresh fruits and vegetables,0.6,1.5,0.5,-0.1,0.5
-Fresh fruits,1.9,0.3,0.9,0.4,-1.2
-Apples,-8.9,-0.5,0.3,0.1,-2.1
-Bananas(1),-2,-1.5,-0.4,0,-1.5
-Citrus fruits(2),1.2,-0.8,1.9,0.6,-2.4
-"Oranges, including tangerines(3)",0.3,-1.2,2,0.5,-2.3
-Other fresh fruits(2),7.4,1.7,0.4,1.1,0.7
-Fresh vegetables,-0.9,2.9,0,-0.7,2.4
-Potatoes,-0.3,4.4,3.7,-2.3,0.9
-Lettuce,-11.7,-1.7,-2.5,-2.4,1.1
-Tomatoes,1.8,5,0,0.6,4.6
-Other fresh vegetables,1.1,3,-0.3,0.1,2.1
-Processed fruits and vegetables(2),2.5,0.6,-1.1,0.6,0.2
-Canned fruits and vegetables(2),2.5,0.5,-0.5,1.1,0
-Canned fruits(2)(3),2.2,-1.2,-0.2,0.7,-0.6
-Canned vegetables(2)(3),2.6,1.9,-0.7,0.8,0.4
-Frozen fruits and vegetables(2),3.8,0.5,-1.4,0.3,-0.3
-Frozen vegetables(3),5,1.3,-2.2,0.9,0.3
-Other processed fruits and vegetables including dried(2),0.4,1.1,-1.3,0.2,1
-"Dried beans, peas, and lentils(1)(2)(3)",-2.3,0,-2.3,2.2,0
-Nonalcoholic beverages and beverage materials,3.4,2.2,0.4,0.2,1.2
-Juices and nonalcoholic drinks(2),4.8,2.4,0.5,0.5,1.4
-Carbonated drinks,4.8,3,1,0.4,1.6
-Frozen noncarbonated juices and drinks(1)(2),29,9.9,-1.2,1.4,9.9
-Nonfrozen noncarbonated juices and drinks(2),4.2,1.8,0.1,0.2,1.7
-Beverage materials including coffee and tea(2),0.2,1.5,0.3,-0.5,0.5
-Coffee,-1.4,2.5,0.2,-0.7,0.6
-Roasted coffee(3),-1.2,2.4,0.4,-0.8,0.8
-Instant coffee(1)(3),-2.3,1.8,0.2,-1.7,1.8
-Other beverage materials including tea(1)(2),3.1,-0.1,0.5,0.2,-0.1
-Other food at home,2.6,0.5,-0.2,0.2,0.6
-Sugar and sweets(1),4.4,1,-0.1,0.2,1
-Sugar and sugar substitutes,7.2,2.2,-0.6,0.9,0.5
-Candy and chewing gum(2),4.7,1,0.5,-0.3,0.3
-Other sweets(2),2,0.3,0.4,0.7,-0.7
-Fats and oils,1.9,1.1,0.5,0.9,-0.3
-Butter and margarine(2),-2.3,2.4,2.5,-0.4,-0.2
-Butter(3),-1.6,3.6,2.9,0.3,-0.1
-Margarine(3),-2,1,1,-0.7,1.1
-Salad dressing(1)(2),2,-0.1,-1.6,0.8,-0.1
-Other fats and oils including peanut butter(2),5.1,0.8,-0.4,1.6,-0.1
-Peanut butter(1)(2)(3),3.6,0,-2.1,2.6,0
-Other foods,2.4,0.3,-0.3,0.1,0.6
-Soups,0.6,1.2,0.7,0.1,1
-Frozen and freeze dried prepared foods,1.1,-0.7,-0.8,0.8,0.6
-Snacks,1.9,-0.1,-0.9,0.4,0.6
-"Spices, seasonings, condiments, sauces",4.6,2.5,0.1,0,1
-Salt and other seasonings and spices(2)(3),3.2,2.6,0.3,-0.5,0.2
-"Olives, pickles, relishes(1)(2)(3)",2.5,-0.7,0.5,-0.1,-0.7
-Sauces and gravies(2)(3),6.7,2,0.7,0.5,0.5
-Other condiments(3),4.1,9.6,-1.7,0.3,6.9
-Baby food and formula(1)(2),8.7,0.7,-0.4,-0.5,0.7
-Other miscellaneous foods(2),1.8,-0.3,0.1,-0.3,0.3
-Prepared salads(3)(4),-0.4,-0.2,-1.1,0.3,-0.2
-Food away from home(1),5.1,0.5,0.4,0.3,0.5
-Full service meals and snacks(1)(2),4.3,0.4,0.5,0.3,0.4
-Limited service meals and snacks(1)(2),5.8,0.6,0.4,0.4,0.6
-Food at employee sites and schools(1)(2),3.1,-0.1,0.4,-0.1,-0.1
-Food at elementary and secondary schools(1)(3)(5),2.1,0,0,-0.1,0
-Food from vending machines and mobile vendors(1)(2),10.6,-0.5,0.3,0.1,-0.5
-Other food away from home(1)(2),6.7,0.2,0.3,0,0.2
-,,,,,
-Energy,-4.6,0.4,-1.6,-0.2,-0.9
-Energy commodities,-6.9,-1.5,-3.8,-0.7,-3.2
-Fuel oil and other fuels,-10.5,0.7,-1,-2.5,-2.3
-Fuel oil,-14.2,-0.6,-1.1,-3.3,-4.5
-"Propane, kerosene, and firewood(6)",-3.4,2.1,-0.1,-0.4,0.3
-Motor fuel,-6.6,-1.6,-4,-0.6,-3.3
-Gasoline (all types),-6.4,-1.5,-4,-0.6,-3.3
-"Gasoline, unleaded regular(3)",-6.9,-1.5,-4.1,-0.6,-3.4
-"Gasoline, unleaded midgrade(3)(7)",-4.2,-1.5,-3.9,-0.5,-2.7
-"Gasoline, unleaded premium(3)",-2.9,-1.7,-3.7,-0.3,-2.6
-Other motor fuels(1)(2),-14.9,-3.9,-4.2,-6.1,-3.9
-Energy services,-2,2.5,1,0.3,1.4
-Electricity,3.8,2.8,1,0.6,1.2
-Utility (piped) gas service,-17.8,1.6,1.2,-0.6,2
-,,,,,
-All items less food and energy,3.9,0.6,0.3,0.3,0.4
-Commodities less food and energy commodities,-0.3,0.2,-0.2,-0.1,-0.3
-Household furnishings and supplies(8),-1.3,0.7,-0.5,-0.3,-0.1
-Window and floor coverings and other linens(2),-4.6,1.8,-1.2,2,-0.9
-Floor coverings(1)(2),0.5,1,-1.6,2.1,1
-Window coverings(1)(2),-0.6,-0.4,0.3,0.1,-0.4
-Other linens(2),-9.4,3.3,-2.7,2.8,-0.3
-Furniture and bedding(1),-2.9,1.3,-1.1,-1.2,1.3
-Bedroom furniture(1),-0.9,1.3,-1,-0.6,1.3
-"Living room, kitchen, and dining room furniture(1)(2)",-4.4,1.3,-1,-1.6,1.3
-Other furniture(2),-2.7,1.5,-0.2,-1.4,0.2
-Appliances(2),-3.9,2.9,-0.7,-0.4,0.9
-Major appliances(2),-7.3,3.3,-1.2,0.6,1.2
-Laundry equipment(1)(3),-12.4,3,-3.8,2.1,3
-Other appliances(2),-1.9,2.8,-0.7,-0.5,0.3
-Other household equipment and furnishings(2),-2,0.6,-1.5,0.4,-1.2
-"Clocks, lamps, and decorator items(1)",-2.1,0.5,-3.3,-0.3,0.5
-Indoor plants and flowers(9),3,0.7,0.1,-0.9,1
-Dishes and flatware(1)(2),-4.4,0.7,-4.7,3,0.7
-Nonelectric cookware and tableware(2),-7.6,0.9,-0.4,-1,-1.5
-"Tools, hardware, outdoor equipment and supplies(1)(2)",-0.8,-0.7,-0.6,-0.9,-0.7
-"Tools, hardware and supplies(2)",-0.9,-1.3,0.9,-0.2,-2
-Outdoor equipment and supplies(1)(2),-0.2,-0.3,-0.5,-1.4,-0.3
-Housekeeping supplies(1),1.8,0.4,-0.5,0,0.4
-Household cleaning products(1)(2),3,0.5,-0.7,0,0.5
-Household paper products(1)(2),3.8,0.1,-0.5,0.7,0.1
-Miscellaneous household products(1)(2),0.3,0.5,-0.4,-0.3,0.5
-Apparel,0.1,1.7,-0.6,0,-0.7
-Men's and boys' apparel,1.7,4.3,-1.2,-0.3,1
-Men's apparel,1.9,4.9,-1.2,0,1.2
-"Men's suits, sport coats, and outerwear",-5.3,4.3,0.5,-1,2
-"Men's underwear, nightwear, swimwear, and accessories",2.2,4.4,-0.8,0.7,2.5
-Men's shirts and sweaters(2),4.4,2.2,-0.2,0,0.3
-Men's pants and shorts,3.3,9.5,-4,-0.4,1.4
-Boys' apparel,1,2.3,-2.4,-1.3,0.2
-Women's and girls' apparel,-1,0.1,-0.6,0.1,-1.6
-Women's apparel,0.5,0.5,-0.5,0.6,-1.2
-Women's outerwear,-1.1,-2.8,0.4,0.5,-3.5
-Women's dresses,-1.7,-5.6,0.5,-0.1,-3.8
-Women's suits and separates(2),0.7,1,-1.4,0,-0.4
-"Women's underwear, nightwear, swimwear, and accessories(2)",1.9,3,-0.3,2.2,0.2
-Girls' apparel,-9,-2.8,-1.2,-2.7,-4.6
-Footwear,0,0,-0.2,-0.2,-0.9
-Men's footwear(1),-0.3,0,0.3,-2,0
-Boys' and girls' footwear(1),-1.6,0.1,-2.8,-1.5,0.1
-Women's footwear,1.4,0,-0.1,-0.2,-0.4
-Infants' and toddlers' apparel,-1.7,0.2,-0.4,0.4,-1.4
-Jewelry and watches(6),0.6,6,0.1,0.9,-0.6
-Watches(1)(6),0.8,2.5,0.7,0.2,2.5
-Jewelry(6),0.6,6.7,0.1,1.3,-1.6
-Transportation commodities less motor fuel(8),-0.8,-1.1,0.5,0.3,-1.1
-New vehicles,0.7,0.2,0,0.2,0
-New cars(3),0.3,0.3,0,-0.1,0.2
-New trucks(3)(10),0.8,0.2,0,0.2,-0.1
-Used cars and trucks,-3.5,-3.7,1.4,0.6,-3.4
-Motor vehicle parts and equipment(1),-0.8,0.7,0.1,0.3,0.7
-Tires(1),-0.4,0.8,-1,1.2,0.8
-Vehicle accessories other than tires(1)(2),-1.8,0.5,2.4,-1.5,0.5
-Vehicle parts and equipment other than tires(1)(3),-0.6,1.6,3.6,-2.5,1.6
-"Motor oil, coolant, and fluids(1)(3)",-2.7,-1.3,1.3,0.4,-1.3
-Medical care commodities(1),3,-0.6,0.5,-0.1,-0.6
-Medicinal drugs(1)(8),3,-0.5,0.5,-0.2,-0.5
-Prescription drugs(1),0.4,-0.8,0.5,-0.4,-0.8
-Nonprescription drugs(8),9.2,0,0.4,0.7,1.1
-Medical equipment and supplies(1)(8),3.4,-1.4,0.5,1.2,-1.4
-Recreation commodities(8),-0.6,1.1,-0.6,-0.5,0.8
-Video and audio products(8),-5.8,2.1,-1.8,-1.5,1.5
-Televisions,-9.7,2.1,-1.3,-0.4,0.9
-Other video equipment(2),-3.3,1.6,-1.4,-0.3,0
-Audio equipment(1),-6.6,2.6,-1.6,-4.9,2.6
-Recorded music and music subscriptions(1)(2),2,2,-3,-1.5,2
-Pets and pet products(1),2.9,0.1,-0.3,0.5,0.1
-Pet food(1)(2)(3),4.8,-0.1,0,-0.1,-0.1
-"Purchase of pets, pet supplies, accessories(1)(2)(3)",0.5,0.7,-0.5,1.4,0.7
-Sporting goods(1),-1.1,2,-0.6,-1.2,2
-Sports vehicles including bicycles(1),-1,2.8,-0.9,-1.3,2.8
-Sports equipment(1),-1.6,0.6,-0.1,-0.9,0.6
-Photographic equipment and supplies,8.5,2.3,1,-0.5,2.2
-Photographic equipment(2)(3),8.4,2.2,1.1,-0.6,1.5
-Recreational reading materials(1),0.5,-0.2,-0.3,-0.4,-0.2
-Newspapers and magazines(1)(2),0,-1.6,-0.3,0.4,-1.6
-Recreational books(1)(2),1.1,1.3,-0.3,-1.5,1.3
-Other recreational goods(2),-2.8,0.5,-0.5,-0.5,-0.8
-Toys,-4.2,0.8,-0.4,-0.6,-0.8
-"Toys, games, hobbies and playground equipment(2)(3)",-3.7,0.7,-0.3,-0.6,-0.6
-"Sewing machines, fabric and supplies(1)(2)",7.1,-1.8,-0.9,3.2,-1.8
-Music instruments and accessories(1)(2),3,-0.4,-1.3,-1.2,-0.4
-Education and communication commodities(8),-6.6,0.6,-2.6,-0.2,0.6
-Educational books and supplies(1),-4,-0.8,-1.5,1.5,-0.8
-College textbooks(1)(3)(11),-5.7,-1.1,-1.4,1.4,-1.1
-Information technology commodities(8),-6.9,0.8,-2.7,-0.4,0.8
-"Computers, peripherals, and smart home assistants(1)(4)",-2.1,1.9,-1.6,-1.3,1.9
-Computer software and accessories(1)(2),-8.6,2,-1.8,-2.8,2
-"Telephone hardware, calculators, and other consumer information items(1)(2)",-10.7,0,-3.7,0.6,0
-Smartphones(1)(3)(12),-13.2,0.2,-3.7,0.3,0.2
-Alcoholic beverages,2.3,0.3,-0.1,0.1,0.3
-Alcoholic beverages at home,1.2,0.5,-0.2,0.3,0.2
-"Beer, ale, and other malt beverages at home",2.4,0.7,-0.4,0.3,0.5
-Distilled spirits at home(1),-0.2,0,-0.1,-0.5,0
-Whiskey at home(1)(3),1.6,0.7,-0.1,-0.8,0.7
-"Distilled spirits, excluding whiskey, at home(1)(3)",-0.8,-0.6,0.1,-0.2,-0.6
-Wine at home(1),0.9,0.7,-0.7,-0.1,0.7
-Alcoholic beverages away from home(1),4,0,0.1,0.2,0
-"Beer, ale, and other malt beverages away from home(1)(2)(3)",4,-0.1,0,0,-0.1
-Wine away from home(1)(2)(3),4.5,0.4,0.3,-0.1,0.4
-Distilled spirits away from home(1)(2)(3),4.7,-0.1,0.1,0.4,-0.1
-Other goods(8),4.4,0.6,0,-0.5,0.3
-Tobacco and smoking products(1),7.4,0.3,1.1,-0.1,0.3
-Cigarettes(1)(2),7.5,0.5,1.1,-0.3,0.5
-Tobacco products other than cigarettes(1)(2),6.9,-0.7,1.5,1.1,-0.7
-Personal care products(1),3.5,0.5,-0.6,-1.1,0.5
-"Hair, dental, shaving, and miscellaneous personal care products(1)(2)",6.2,0.7,-0.3,0,0.7
-"Cosmetics, perfume, bath, nail preparations and implements(1)",0.5,0.3,-0.9,-2.3,0.3
-Miscellaneous personal goods(2),-1.9,2,-1.2,0.3,-0.6
-"Stationery, stationery supplies, gift wrap(3)",-0.1,0.1,-1.4,-0.2,0.3
-Services less energy services,5.4,0.7,0.5,0.4,0.7
-Shelter,6,0.6,0.4,0.4,0.6
-Rent of shelter(13),6.1,0.6,0.4,0.4,0.6
-Rent of primary residence,6.1,0.3,0.4,0.4,0.4
-Lodging away from home(2),1,4.3,-0.5,0.2,1.8
-"Housing at school, excluding board(13)",3.9,0.1,0.3,0.3,0.3
-Other lodging away from home including hotels and motels,0.6,5.2,-0.6,0.1,2.4
-Owners' equivalent rent of residences(13),6.2,0.5,0.5,0.4,0.6
-Owners' equivalent rent of primary residence(13),6.2,0.5,0.5,0.4,0.6
-Tenants' and household insurance(1)(2),4.1,0.7,0.5,0.3,0.7
-Water and sewer and trash collection services(2),5.5,1.4,0.4,0.1,1.1
-Water and sewerage maintenance,5.2,1.7,0.2,0.2,1.2
-Garbage and trash collection(1)(10),6.4,0.8,0.7,0.1,0.8
-Household operations(1)(2),,,,,
-Domestic services(1)(2),,,,,
-Gardening and lawncare services(1)(2),,,0.9,,
-"Moving, storage, freight expense(1)(2)",-4.9,-1,0,-2,-1
-Repair of household items(1)(2),18.2,,,,
-Medical care services,0.6,1,0.5,0.5,0.7
-Professional services,1.8,0.5,0.5,0.3,0.5
-Physicians' services(1),0.1,0.6,0.6,0.2,0.6
-Dental services,4.8,0.4,0.4,0.7,0.4
-Eyeglasses and eye care(1)(6),2.7,0,-0.2,-0.2,0
-Services by other medical professionals(1)(6),2.1,0.6,0,0,0.6
-Hospital and related services(1),6.5,1.6,0.1,0.5,1.6
-Hospital services(1)(14),6.7,1.6,0.1,0.5,1.6
-Inpatient hospital services(1)(3)(14),5.9,1.5,0.1,0.5,1.5
-Outpatient hospital services(1)(3)(6),8.3,2,0.1,0.8,2
-Nursing homes and adult day services(14),5,2,0.3,0.2,1.2
-Care of invalids and elderly at home(1)(5),6.7,1.6,-0.4,0.4,1.6
-Health insurance(1)(5),-23.3,1.4,1.1,1.1,1.4
-Transportation services,9.5,0.7,1,0.1,1
-Leased cars and trucks(1)(11),-1.6,,,,
-Car and truck rental(2),-14.1,-6.8,-2,-1.3,-0.7
-Motor vehicle maintenance and repair(1),6.5,0.8,0.3,-0.3,0.8
-Motor vehicle body work(1),4.3,0.7,-0.1,1,0.7
-Motor vehicle maintenance and servicing(1),5.7,1,0.5,-0.5,1
-Motor vehicle repair(1)(2),7.9,0.5,0,-0.1,0.5
-Motor vehicle insurance,20.6,1.8,1.2,1.7,1.4
-Motor vehicle fees(1)(2),2.6,1.1,-1.1,0.6,1.1
-State motor vehicle registration and license fees(1)(2),1.8,0.6,0,0.3,0.6
-Parking and other fees(1)(2),3.8,1.9,-2.6,1.1,1.9
-Parking fees and tolls(2)(3),4.8,1.8,-0.5,-0.8,1.3
-Public transportation,-4.8,0.9,-0.4,-0.1,1.3
-Airline fares,-6.4,1.7,-0.2,0.9,1.4
-Other intercity transportation,-3.4,-1.5,-1.2,-2.3,0.2
-Ship fare(1)(2)(3),9.1,2.1,-1.6,-0.6,2.1
-Intracity transportation(1),1.7,-1,-0.2,0.4,-1
-Intracity mass transit(1)(3)(8),2.1,-0.4,0,-0.3,-0.4
-Recreation services(8),5.3,0.5,0.1,1.1,0.4
-Video and audio services(8),5.3,0.6,-0.1,0.7,0.3
-"Cable, satellite, and live streaming television service(10)",5.7,0.6,0,0.7,0.2
-"Purchase, subscription, and rental of video(1)(2)",2.9,0.8,-0.8,0.4,0.8
-Video discs and other media(1)(2)(3),10.5,0.6,-2.2,0.8,0.6
-Subscription and rental of video and video games(1)(2)(3),0.9,-0.3,1.1,0.4,-0.3
-Pet services including veterinary(1)(2),7,0.9,-0.3,0.9,0.9
-Pet services(1)(2)(3),4.8,5.6,-2.1,0,5.6
-Veterinarian services(1)(2)(3),9.6,-0.1,1,1.2,-0.1
-Photographers and photo processing(1)(2),4.1,0.7,0.1,0.1,0.7
-Other recreation services(2),4.8,0.4,0.3,1.6,0.4
-"Club membership for shopping clubs, fraternal, or other organizations, or participant sports fees(1)(2)",3.1,0.7,0.2,1.5,0.7
-Admissions(1),7,-0.3,0.9,1.4,-0.3
-"Admission to movies, theaters, and concerts(1)(2)(3)",5.2,0.4,1.5,1,0.4
-Admission to sporting events(1)(2)(3),13.5,-0.9,0,3.2,-0.9
-Fees for lessons or instructions(1)(6),6.2,0.7,-0.4,1.8,0.7
-Education and communication services(8),1.3,0.4,0.1,0.2,0.4
-"Tuition, other school fees, and childcare",2.7,0.2,0.1,0.2,0.4
-College tuition and fees,1.3,0,0,0.2,0.2
-Elementary and high school tuition and fees,4.9,0,0.2,0.3,0.3
-Day care and preschool(9),4.7,0.8,0.3,0.4,0.7
-Technical and business school tuition and fees(1)(2),1.7,0,0.2,0.1,0
-Postage and delivery services(2),1.2,2,-0.1,0.1,1.2
-Postage,0.8,1.5,-0.3,0.2,1.4
-Delivery services(2),3.6,4.7,0.9,-0.5,0.5
-Telephone services(1)(2),-2.1,0,0,0.1,0
-Wireless telephone services(1)(2),-3.2,-0.3,0,0,-0.3
-Residential telephone services(1)(8),4.5,1.4,0,0.8,1.4
-Internet services and electronic information providers(1)(2),3.8,1.2,0.2,0.1,1.2
-Other personal services(1)(8),6.8,1,0.3,0.1,1
-Personal care services(1),4.2,0.7,0.3,0.1,0.7
-Haircuts and other personal care services(1)(2),4.2,0.7,0.3,0.1,0.7
-Miscellaneous personal services(1),8.7,1.2,0.3,0.1,1.2
-Legal services(1)(6),,,,,
-Funeral expenses(1)(6),4.7,0.4,0.7,0.5,0.4
-Laundry and dry cleaning services(1)(2),5.4,0.7,0.7,0.4,0.7
-Apparel services other than laundry and dry cleaning(1)(2),5.6,1.5,0.6,0.1,1.5
-Financial services(1)(6),8.3,2.4,-0.1,-0.2,2.4
-Checking account and other bank services(1)(2)(3),4.4,0,0,0.8,0
-Tax return preparation and other accounting fees(1)(2)(3),11.2,,-0.1,,
+All items,,,3.1,0.5,0.2,0.2,0.3
+Food,Food,Food at home,2.6,0.6,0.2,0.2,0.4
+Food at home,Food,Food at home,1.2,0.7,0,0.1,0.4
+Cereals and bakery products,Food,Food at home,1.5,0.2,0.3,-0.1,-0.2
+Cereals and cereal products,Food,Food at home,-0.6,0.3,0.2,-1,-0.1
+Flour and prepared flour mixes,Food,Food at home,1,2.7,1,-0.2,-1.2
+Breakfast cereal(1),Food,Food at home,-0.8,-0.8,0.8,-2.4,-0.8
+"Rice, pasta, cornmeal",Food,Food at home,-1,0.4,-0.7,0,-0.1
+Rice(1)(2)(3),Food,Food at home,-1.8,-0.6,0.4,0.1,-0.6
+Bakery products(1),Food,Food at home,2.5,0.1,0.2,-0.4,0.1
+Bread(1)(2),Food,Food at home,3.2,0.3,-0.4,-0.3,0.3
+White bread(1)(3),Food,Food at home,3.3,0.5,-1.4,0.2,0.5
+Bread other than white(1)(3),Food,Food at home,2.8,0,0.6,-1,0
+"Fresh biscuits, rolls, muffins(2)",Food,Food at home,2.9,0.2,1.1,-0.4,-0.3
+"Cakes, cupcakes, and cookies(1)",Food,Food at home,1,0.1,0.7,-0.2,0.1
+Cookies(1)(3),Food,Food at home,0.6,0.3,0.2,0.1,0.3
+Fresh cakes and cupcakes(1)(3),Food,Food at home,1.7,-1,1,-0.4,-1
+Other bakery products,Food,Food at home,2.8,0.1,0.7,0.6,-0.8
+"Fresh sweetrolls, coffeecakes, doughnuts(1)(3)",Food,Food at home,2.6,-0.7,0.2,0.2,-0.7
+"Crackers, bread, and cracker products(3)",Food,Food at home,5.1,0,1.3,0.9,-1
+"Frozen and refrigerated bakery products, pies, tarts, turnovers(3)",Food,Food at home,0.9,0.2,0.3,0.4,-0.3
+"Meats, poultry, fish, and eggs",Food,Food at home,-0.9,-0.1,-0.2,0.3,0
+"Meats, poultry, and fish",Food,Food at home,2.1,-0.3,-0.3,0.1,-0.2
+Meats,Food,Food at home,3.5,-0.3,-0.3,0.3,-0.1
+Beef and veal,Food,Food at home,7.7,-0.3,0.1,0.6,-0.3
+Uncooked ground beef(1),Food,Food at home,5.5,-1.3,-1.5,-0.7,-1.3
+Uncooked beef roasts(2),Food,Food at home,6.7,-0.7,1.8,-1.2,0.5
+Uncooked beef steaks(2),Food,Food at home,10.7,0.6,-0.8,2.2,0.9
+Uncooked other beef and veal(1)(2),Food,Food at home,5,0.3,1.6,-1.1,0.3
+Pork,Food,Food at home,-0.4,-0.3,-1.1,0.2,-0.3
+"Bacon, breakfast sausage, and related products(2)",Food,Food at home,-1.3,-0.4,-1.4,-0.1,-0.6
+Bacon and related products(3),Food,Food at home,0.6,-2.1,-2.4,0.5,-1.3
+Breakfast sausage and related products(2)(3),Food,Food at home,-3.4,2.1,0.1,-1,0.2
+Ham,Food,Food at home,-3,-0.5,-0.5,1.4,-3.1
+"Ham, excluding canned(3)",Food,Food at home,-3.6,-0.8,-0.8,1.6,-3.4
+Pork chops(1),Food,Food at home,3.6,0.4,-2.4,-0.9,0.4
+"Other pork including roasts, steaks, and ribs(2)",Food,Food at home,1.4,-0.4,-0.3,0,0.9
+Other meats,Food,Food at home,1.4,-0.3,0,-0.2,0.3
+Frankfurters(3),Food,Food at home,7.1,0.9,0.4,0.1,1.9
+Lunchmeats(1)(2)(3),Food,Food at home,1.3,-0.8,0,0.2,-0.8
+Poultry(1),Food,Food at home,1.7,0.3,-0.9,-0.4,0.3
+Chicken(1)(2),Food,Food at home,1.2,-0.2,-0.4,0.1,-0.2
+Fresh whole chicken(1)(3),Food,Food at home,3.7,0.5,1.4,-0.4,0.5
+Fresh and frozen chicken parts(1)(3),Food,Food at home,0.4,-0.6,-1.1,0.5,-0.6
+Other uncooked poultry including turkey(2),Food,Food at home,3.7,2.6,0,-1,0.2
+Fish and seafood,Food,Food at home,-2.6,-0.8,0.3,-0.2,-1.3
+Fresh fish and seafood(1)(2),Food,Food at home,-3.9,0.1,-0.3,-1,0.1
+Processed fish and seafood(2),Food,Food at home,-1.3,-1.7,0.1,0,-1.2
+Shelf stable fish and seafood(3),Food,Food at home,1.9,-3.8,1.1,0.4,-2.9
+Frozen fish and seafood(3),Food,Food at home,-1.2,0.3,-0.1,-0.7,0.9
+Eggs,Food,Food at home,-28.6,1.8,2.6,3.7,3.4
+Dairy and related products,Food,Food at home,-1.1,0.4,0,0.1,0.2
+Milk(2),Food,Food at home,-2.4,-0.8,-0.1,0.1,-0.6
+Fresh whole milk(3),Food,Food at home,-3.1,-1,0,0.3,-1.1
+Fresh milk other than whole(1)(2)(3),Food,Food at home,-1.8,-0.9,0.1,0.6,-0.9
+Cheese and related products(1),Food,Food at home,-2.1,1,-0.7,-0.2,1
+Ice cream and related products,Food,Food at home,0.2,-1.2,0.8,0.5,-1.7
+Other dairy and related products(2),Food,Food at home,0,1.6,-0.2,-0.1,0.9
+Fruits and vegetables,Food,Food at home,1.1,1.3,0.1,0,0.4
+Fresh fruits and vegetables,Food,Food at home,0.6,1.5,0.5,-0.1,0.5
+Fresh fruits,Food,Food at home,1.9,0.3,0.9,0.4,-1.2
+Apples,Food,Food at home,-8.9,-0.5,0.3,0.1,-2.1
+Bananas(1),Food,Food at home,-2,-1.5,-0.4,0,-1.5
+Citrus fruits(2),Food,Food at home,1.2,-0.8,1.9,0.6,-2.4
+"Oranges, including tangerines(3)",Food,Food at home,0.3,-1.2,2,0.5,-2.3
+Other fresh fruits(2),Food,Food at home,7.4,1.7,0.4,1.1,0.7
+Fresh vegetables,Food,Food at home,-0.9,2.9,0,-0.7,2.4
+Potatoes,Food,Food at home,-0.3,4.4,3.7,-2.3,0.9
+Lettuce,Food,Food at home,-11.7,-1.7,-2.5,-2.4,1.1
+Tomatoes,Food,Food at home,1.8,5,0,0.6,4.6
+Other fresh vegetables,Food,Food at home,1.1,3,-0.3,0.1,2.1
+Processed fruits and vegetables(2),Food,Food at home,2.5,0.6,-1.1,0.6,0.2
+Canned fruits and vegetables(2),Food,Food at home,2.5,0.5,-0.5,1.1,0
+Canned fruits(2)(3),Food,Food at home,2.2,-1.2,-0.2,0.7,-0.6
+Canned vegetables(2)(3),Food,Food at home,2.6,1.9,-0.7,0.8,0.4
+Frozen fruits and vegetables(2),Food,Food at home,3.8,0.5,-1.4,0.3,-0.3
+Frozen vegetables(3),Food,Food at home,5,1.3,-2.2,0.9,0.3
+Other processed fruits and vegetables including dried(2),Food,Food at home,0.4,1.1,-1.3,0.2,1
+"Dried beans, peas, and lentils(1)(2)(3)",Food,Food at home,-2.3,0,-2.3,2.2,0
+Nonalcoholic beverages and beverage materials,Food,Food at home,3.4,2.2,0.4,0.2,1.2
+Juices and nonalcoholic drinks(2),Food,Food at home,4.8,2.4,0.5,0.5,1.4
+Carbonated drinks,Food,Food at home,4.8,3,1,0.4,1.6
+Frozen noncarbonated juices and drinks(1)(2),Food,Food at home,29,9.9,-1.2,1.4,9.9
+Nonfrozen noncarbonated juices and drinks(2),Food,Food at home,4.2,1.8,0.1,0.2,1.7
+Beverage materials including coffee and tea(2),Food,Food at home,0.2,1.5,0.3,-0.5,0.5
+Coffee,Food,Food at home,-1.4,2.5,0.2,-0.7,0.6
+Roasted coffee(3),Food,Food at home,-1.2,2.4,0.4,-0.8,0.8
+Instant coffee(1)(3),Food,Food at home,-2.3,1.8,0.2,-1.7,1.8
+Other beverage materials including tea(1)(2),Food,Food at home,3.1,-0.1,0.5,0.2,-0.1
+Other food at home,Food,Food at home,2.6,0.5,-0.2,0.2,0.6
+Sugar and sweets(1),Food,Food at home,4.4,1,-0.1,0.2,1
+Sugar and sugar substitutes,Food,Food at home,7.2,2.2,-0.6,0.9,0.5
+Candy and chewing gum(2),Food,Food at home,4.7,1,0.5,-0.3,0.3
+Other sweets(2),Food,Food at home,2,0.3,0.4,0.7,-0.7
+Fats and oils,Food,Food at home,1.9,1.1,0.5,0.9,-0.3
+Butter and margarine(2),Food,Food at home,-2.3,2.4,2.5,-0.4,-0.2
+Butter(3),Food,Food at home,-1.6,3.6,2.9,0.3,-0.1
+Margarine(3),Food,Food at home,-2,1,1,-0.7,1.1
+Salad dressing(1)(2),Food,Food at home,2,-0.1,-1.6,0.8,-0.1
+Other fats and oils including peanut butter(2),Food,Food at home,5.1,0.8,-0.4,1.6,-0.1
+Peanut butter(1)(2)(3),Food,Food at home,3.6,0,-2.1,2.6,0
+Other foods,Food,Food at home,2.4,0.3,-0.3,0.1,0.6
+Soups,Food,Food at home,0.6,1.2,0.7,0.1,1
+Frozen and freeze dried prepared foods,Food,Food at home,1.1,-0.7,-0.8,0.8,0.6
+Snacks,Food,Food at home,1.9,-0.1,-0.9,0.4,0.6
+"Spices, seasonings, condiments, sauces",Food,Food at home,4.6,2.5,0.1,0,1
+Salt and other seasonings and spices(2)(3),Food,Food at home,3.2,2.6,0.3,-0.5,0.2
+"Olives, pickles, relishes(1)(2)(3)",Food,Food at home,2.5,-0.7,0.5,-0.1,-0.7
+Sauces and gravies(2)(3),Food,Food at home,6.7,2,0.7,0.5,0.5
+Other condiments(3),Food,Food at home,4.1,9.6,-1.7,0.3,6.9
+Baby food and formula(1)(2),Food,Food at home,8.7,0.7,-0.4,-0.5,0.7
+Other miscellaneous foods(2),Food,Food at home,1.8,-0.3,0.1,-0.3,0.3
+Prepared salads(3)(4),Food,Food at home,-0.4,-0.2,-1.1,0.3,-0.2
+Food away from home(1),Food,Food away from home,5.1,0.5,0.4,0.3,0.5
+Full service meals and snacks(1)(2),Food,Food away from home,4.3,0.4,0.5,0.3,0.4
+Limited service meals and snacks(1)(2),Food,Food away from home,5.8,0.6,0.4,0.4,0.6
+Food at employee sites and schools(1)(2),Food,Food away from home,3.1,-0.1,0.4,-0.1,-0.1
+Food at elementary and secondary schools(1)(3)(5),Food,Food away from home,2.1,0,0,-0.1,0
+Food from vending machines and mobile vendors(1)(2),Food,Food away from home,10.6,-0.5,0.3,0.1,-0.5
+Other food away from home(1)(2),Food,Food away from home,6.7,0.2,0.3,0,0.2
+,,,,,,,
+Energy,Energy,,-4.6,0.4,-1.6,-0.2,-0.9
+Energy commodities,Energy,Energy commodities,-6.9,-1.5,-3.8,-0.7,-3.2
+Fuel oil and other fuels,Energy,Energy commodities,-10.5,0.7,-1,-2.5,-2.3
+Fuel oil,Energy,Energy commodities,-14.2,-0.6,-1.1,-3.3,-4.5
+"Propane, kerosene, and firewood(6)",Energy,Energy commodities,-3.4,2.1,-0.1,-0.4,0.3
+Motor fuel,Energy,Energy commodities,-6.6,-1.6,-4,-0.6,-3.3
+Gasoline (all types),Energy,Energy commodities,-6.4,-1.5,-4,-0.6,-3.3
+"Gasoline, unleaded regular(3)",Energy,Energy commodities,-6.9,-1.5,-4.1,-0.6,-3.4
+"Gasoline, unleaded midgrade(3)(7)",Energy,Energy commodities,-4.2,-1.5,-3.9,-0.5,-2.7
+"Gasoline, unleaded premium(3)",Energy,Energy commodities,-2.9,-1.7,-3.7,-0.3,-2.6
+Other motor fuels(1)(2),Energy,Energy commodities,-14.9,-3.9,-4.2,-6.1,-3.9
+Energy services,Energy,Energy services,-2,2.5,1,0.3,1.4
+Electricity,Energy,Energy services,3.8,2.8,1,0.6,1.2
+Utility (piped) gas service,Energy,Energy services,-17.8,1.6,1.2,-0.6,2
+,,,,,,,
+All items less food and energy,,,3.9,0.6,0.3,0.3,0.4
+Commodities less food and energy commodities,,,-0.3,0.2,-0.2,-0.1,-0.3
+Household furnishings and supplies(8),Commodities,,-1.3,0.7,-0.5,-0.3,-0.1
+Window and floor coverings and other linens(2),Commodities,,-4.6,1.8,-1.2,2,-0.9
+Floor coverings(1)(2),Commodities,,0.5,1,-1.6,2.1,1
+Window coverings(1)(2),Commodities,,-0.6,-0.4,0.3,0.1,-0.4
+Other linens(2),Commodities,,-9.4,3.3,-2.7,2.8,-0.3
+Furniture and bedding(1),Commodities,,-2.9,1.3,-1.1,-1.2,1.3
+Bedroom furniture(1),Commodities,,-0.9,1.3,-1,-0.6,1.3
+"Living room, kitchen, and dining room furniture(1)(2)",Commodities,,-4.4,1.3,-1,-1.6,1.3
+Other furniture(2),Commodities,,-2.7,1.5,-0.2,-1.4,0.2
+Appliances(2),Commodities,,-3.9,2.9,-0.7,-0.4,0.9
+Major appliances(2),Commodities,,-7.3,3.3,-1.2,0.6,1.2
+Laundry equipment(1)(3),Commodities,,-12.4,3,-3.8,2.1,3
+Other appliances(2),Commodities,,-1.9,2.8,-0.7,-0.5,0.3
+Other household equipment and furnishings(2),Commodities,,-2,0.6,-1.5,0.4,-1.2
+"Clocks, lamps, and decorator items(1)",Commodities,,-2.1,0.5,-3.3,-0.3,0.5
+Indoor plants and flowers(9),Commodities,,3,0.7,0.1,-0.9,1
+Dishes and flatware(1)(2),Commodities,,-4.4,0.7,-4.7,3,0.7
+Nonelectric cookware and tableware(2),Commodities,,-7.6,0.9,-0.4,-1,-1.5
+"Tools, hardware, outdoor equipment and supplies(1)(2)",Commodities,,-0.8,-0.7,-0.6,-0.9,-0.7
+"Tools, hardware and supplies(2)",Commodities,,-0.9,-1.3,0.9,-0.2,-2
+Outdoor equipment and supplies(1)(2),Commodities,,-0.2,-0.3,-0.5,-1.4,-0.3
+Housekeeping supplies(1),Commodities,,1.8,0.4,-0.5,0,0.4
+Household cleaning products(1)(2),Commodities,,3,0.5,-0.7,0,0.5
+Household paper products(1)(2),Commodities,,3.8,0.1,-0.5,0.7,0.1
+Miscellaneous household products(1)(2),Commodities,,0.3,0.5,-0.4,-0.3,0.5
+Apparel,Apparel,Men's and boys' apparel,0.1,1.7,-0.6,0,-0.7
+Men's and boys' apparel,Apparel,Men's and boys' apparel,1.7,4.3,-1.2,-0.3,1
+Men's apparel,Apparel,Men's and boys' apparel,1.9,4.9,-1.2,0,1.2
+"Men's suits, sport coats, and outerwear",Apparel,Men's and boys' apparel,-5.3,4.3,0.5,-1,2
+"Men's underwear, nightwear, swimwear, and accessories",Apparel,Men's and boys' apparel,2.2,4.4,-0.8,0.7,2.5
+Men's shirts and sweaters(2),Apparel,Men's and boys' apparel,4.4,2.2,-0.2,0,0.3
+Men's pants and shorts,Apparel,Men's and boys' apparel,3.3,9.5,-4,-0.4,1.4
+Boys' apparel,Apparel,Men's and boys' apparel,1,2.3,-2.4,-1.3,0.2
+Women's and girls' apparel,Apparel,Women's apparel,-1,0.1,-0.6,0.1,-1.6
+Women's apparel,Apparel,Women's apparel,0.5,0.5,-0.5,0.6,-1.2
+Women's outerwear,Apparel,Women's apparel,-1.1,-2.8,0.4,0.5,-3.5
+Women's dresses,Apparel,Women's apparel,-1.7,-5.6,0.5,-0.1,-3.8
+Women's suits and separates(2),Apparel,Women's apparel,0.7,1,-1.4,0,-0.4
+"Women's underwear, nightwear, swimwear, and accessories(2)",Apparel,Women's apparel,1.9,3,-0.3,2.2,0.2
+Girls' apparel,Apparel,Women's apparel,-9,-2.8,-1.2,-2.7,-4.6
+Footwear,Apparel,Women's apparel,0,0,-0.2,-0.2,-0.9
+Men's footwear(1),Apparel,Women's apparel,-0.3,0,0.3,-2,0
+Boys' and girls' footwear(1),Apparel,Women's apparel,-1.6,0.1,-2.8,-1.5,0.1
+Women's footwear,Apparel,Women's apparel,1.4,0,-0.1,-0.2,-0.4
+Infants' and toddlers' apparel,Apparel,Women's apparel,-1.7,0.2,-0.4,0.4,-1.4
+Jewelry and watches(6),Apparel,Women's apparel,0.6,6,0.1,0.9,-0.6
+Watches(1)(6),Apparel,Women's apparel,0.8,2.5,0.7,0.2,2.5
+Jewelry(6),Apparel,Women's apparel,0.6,6.7,0.1,1.3,-1.6
+Transportation commodities less motor fuel(8),Transportation,,-0.8,-1.1,0.5,0.3,-1.1
+New vehicles,Transportation,,0.7,0.2,0,0.2,0
+New cars(3),Transportation,,0.3,0.3,0,-0.1,0.2
+New trucks(3)(10),Transportation,,0.8,0.2,0,0.2,-0.1
+Used cars and trucks,Transportation,,-3.5,-3.7,1.4,0.6,-3.4
+Motor vehicle parts and equipment(1),Transportation,,-0.8,0.7,0.1,0.3,0.7
+Tires(1),Transportation,,-0.4,0.8,-1,1.2,0.8
+Vehicle accessories other than tires(1)(2),Transportation,,-1.8,0.5,2.4,-1.5,0.5
+Vehicle parts and equipment other than tires(1)(3),Transportation,,-0.6,1.6,3.6,-2.5,1.6
+"Motor oil, coolant, and fluids(1)(3)",Transportation,,-2.7,-1.3,1.3,0.4,-1.3
+Medical care commodities(1),Medical care commodities,,3,-0.6,0.5,-0.1,-0.6
+Medicinal drugs(1)(8),Medical care commodities,,3,-0.5,0.5,-0.2,-0.5
+Prescription drugs(1),Medical care commodities,,0.4,-0.8,0.5,-0.4,-0.8
+Nonprescription drugs(8),Medical care commodities,,9.2,0,0.4,0.7,1.1
+Medical equipment and supplies(1)(8),Medical equipment and supplies,,3.4,-1.4,0.5,1.2,-1.4
+Recreation commodities(8),Recreation,,-0.6,1.1,-0.6,-0.5,0.8
+Video and audio products(8),Recreation,,-5.8,2.1,-1.8,-1.5,1.5
+Televisions,Recreation,,-9.7,2.1,-1.3,-0.4,0.9
+Other video equipment(2),Recreation,,-3.3,1.6,-1.4,-0.3,0
+Audio equipment(1),Recreation,,-6.6,2.6,-1.6,-4.9,2.6
+Recorded music and music subscriptions(1)(2),Recreation,,2,2,-3,-1.5,2
+Pets and pet products(1),Recreation,,2.9,0.1,-0.3,0.5,0.1
+Pet food(1)(2)(3),Recreation,,4.8,-0.1,0,-0.1,-0.1
+"Purchase of pets, pet supplies, accessories(1)(2)(3)",Recreation,,0.5,0.7,-0.5,1.4,0.7
+Sporting goods(1),Recreation,,-1.1,2,-0.6,-1.2,2
+Sports vehicles including bicycles(1),Recreation,,-1,2.8,-0.9,-1.3,2.8
+Sports equipment(1),Recreation,,-1.6,0.6,-0.1,-0.9,0.6
+Photographic equipment and supplies,Recreation,,8.5,2.3,1,-0.5,2.2
+Photographic equipment(2)(3),Recreation,,8.4,2.2,1.1,-0.6,1.5
+Recreational reading materials(1),Recreation,,0.5,-0.2,-0.3,-0.4,-0.2
+Newspapers and magazines(1)(2),Recreation,,0,-1.6,-0.3,0.4,-1.6
+Recreational books(1)(2),Recreation,,1.1,1.3,-0.3,-1.5,1.3
+Other recreational goods(2),Recreation,,-2.8,0.5,-0.5,-0.5,-0.8
+Toys,Recreation,,-4.2,0.8,-0.4,-0.6,-0.8
+"Toys, games, hobbies and playground equipment(2)(3)",Recreation,,-3.7,0.7,-0.3,-0.6,-0.6
+"Sewing machines, fabric and supplies(1)(2)",Recreation,,7.1,-1.8,-0.9,3.2,-1.8
+Music instruments and accessories(1)(2),Recreation,,3,-0.4,-1.3,-1.2,-0.4
+Education and communication commodities(8),Education,,-6.6,0.6,-2.6,-0.2,0.6
+Educational books and supplies(1),Education,,-4,-0.8,-1.5,1.5,-0.8
+College textbooks(1)(3)(11),Education,,-5.7,-1.1,-1.4,1.4,-1.1
+Information technology commodities(8),Technology,,-6.9,0.8,-2.7,-0.4,0.8
+"Computers, peripherals, and smart home assistants(1)(4)",Technology,,-2.1,1.9,-1.6,-1.3,1.9
+Computer software and accessories(1)(2),Technology,,-8.6,2,-1.8,-2.8,2
+"Telephone hardware, calculators, and other consumer information items(1)(2)",Technology,,-10.7,0,-3.7,0.6,0
+Smartphones(1)(3)(12),Technology,,-13.2,0.2,-3.7,0.3,0.2
+Alcoholic beverages,Alcohol,,2.3,0.3,-0.1,0.1,0.3
+Alcoholic beverages at home,Alcohol,,1.2,0.5,-0.2,0.3,0.2
+"Beer, ale, and other malt beverages at home",Alcohol,,2.4,0.7,-0.4,0.3,0.5
+Distilled spirits at home(1),Alcohol,,-0.2,0,-0.1,-0.5,0
+Whiskey at home(1)(3),Alcohol,,1.6,0.7,-0.1,-0.8,0.7
+"Distilled spirits, excluding whiskey, at home(1)(3)",Alcohol,,-0.8,-0.6,0.1,-0.2,-0.6
+Wine at home(1),Alcohol,,0.9,0.7,-0.7,-0.1,0.7
+Alcoholic beverages away from home(1),Alcohol,,4,0,0.1,0.2,0
+"Beer, ale, and other malt beverages away from home(1)(2)(3)",Alcohol,,4,-0.1,0,0,-0.1
+Wine away from home(1)(2)(3),Alcohol,,4.5,0.4,0.3,-0.1,0.4
+Distilled spirits away from home(1)(2)(3),Alcohol,,4.7,-0.1,0.1,0.4,-0.1
+Other goods(8),,,4.4,0.6,0,-0.5,0.3
+Tobacco and smoking products(1),Tobacco,,7.4,0.3,1.1,-0.1,0.3
+Cigarettes(1)(2),Tobacco,,7.5,0.5,1.1,-0.3,0.5
+Tobacco products other than cigarettes(1)(2),Tobacco,,6.9,-0.7,1.5,1.1,-0.7
+Personal care products(1),Personal Care,,3.5,0.5,-0.6,-1.1,0.5
+"Hair, dental, shaving, and miscellaneous personal care products(1)(2)",Personal Care,,6.2,0.7,-0.3,0,0.7
+"Cosmetics, perfume, bath, nail preparations and implements(1)",Personal Care,,0.5,0.3,-0.9,-2.3,0.3
+Miscellaneous personal goods(2),Personal Care,,-1.9,2,-1.2,0.3,-0.6
+"Stationery, stationery supplies, gift wrap(3)",Commodities,,-0.1,0.1,-1.4,-0.2,0.3
+Services less energy services,,,5.4,0.7,0.5,0.4,0.7
+Shelter,Shelter,,6,0.6,0.4,0.4,0.6
+Rent of shelter(13),Shelter,,6.1,0.6,0.4,0.4,0.6
+Rent of primary residence,Shelter,,6.1,0.3,0.4,0.4,0.4
+Lodging away from home(2),Shelter,,1,4.3,-0.5,0.2,1.8
+"Housing at school, excluding board(13)",Shelter,,3.9,0.1,0.3,0.3,0.3
+Other lodging away from home including hotels and motels,Shelter,,0.6,5.2,-0.6,0.1,2.4
+Owners' equivalent rent of residences(13),Shelter,,6.2,0.5,0.5,0.4,0.6
+Owners' equivalent rent of primary residence(13),Shelter,,6.2,0.5,0.5,0.4,0.6
+Tenants' and household insurance(1)(2),Shelter,,4.1,0.7,0.5,0.3,0.7
+Water and sewer and trash collection services(2),Services,,5.5,1.4,0.4,0.1,1.1
+Water and sewerage maintenance,Services,,5.2,1.7,0.2,0.2,1.2
+Garbage and trash collection(1)(10),Services,,6.4,0.8,0.7,0.1,0.8
+Household operations(1)(2),Services,,,,,,
+Domestic services(1)(2),Services,,,,,,
+Gardening and lawncare services(1)(2),Services,,,,0.9,,
+"Moving, storage, freight expense(1)(2)",Services,,-4.9,-1,0,-2,-1
+Repair of household items(1)(2),Services,,18.2,,,,
+Medical care services,Services,Medical Services,0.6,1,0.5,0.5,0.7
+Professional services,Services,Medical Services,1.8,0.5,0.5,0.3,0.5
+Physicians' services(1),Services,Medical Services,0.1,0.6,0.6,0.2,0.6
+Dental services,Services,Medical Services,4.8,0.4,0.4,0.7,0.4
+Eyeglasses and eye care(1)(6),Services,Medical Services,2.7,0,-0.2,-0.2,0
+Services by other medical professionals(1)(6),Services,Medical Services,2.1,0.6,0,0,0.6
+Hospital and related services(1),Services,Medical Services,6.5,1.6,0.1,0.5,1.6
+Hospital services(1)(14),Services,Medical Services,6.7,1.6,0.1,0.5,1.6
+Inpatient hospital services(1)(3)(14),Services,Medical Services,5.9,1.5,0.1,0.5,1.5
+Outpatient hospital services(1)(3)(6),Services,Medical Services,8.3,2,0.1,0.8,2
+Nursing homes and adult day services(14),Services,Medical Services,5,2,0.3,0.2,1.2
+Care of invalids and elderly at home(1)(5),Services,Medical Services,6.7,1.6,-0.4,0.4,1.6
+Health insurance(1)(5),Services,Medical Services,-23.3,1.4,1.1,1.1,1.4
+Transportation services,Services,Transportation Services,9.5,0.7,1,0.1,1
+Leased cars and trucks(1)(11),Services,Transportation Services,-1.6,,,,
+Car and truck rental(2),Services,Transportation Services,-14.1,-6.8,-2,-1.3,-0.7
+Motor vehicle maintenance and repair(1),Services,Transportation Services,6.5,0.8,0.3,-0.3,0.8
+Motor vehicle body work(1),Services,Transportation Services,4.3,0.7,-0.1,1,0.7
+Motor vehicle maintenance and servicing(1),Services,Transportation Services,5.7,1,0.5,-0.5,1
+Motor vehicle repair(1)(2),Services,Transportation Services,7.9,0.5,0,-0.1,0.5
+Motor vehicle insurance,Services,Transportation Services,20.6,1.8,1.2,1.7,1.4
+Motor vehicle fees(1)(2),Services,Transportation Services,2.6,1.1,-1.1,0.6,1.1
+State motor vehicle registration and license fees(1)(2),Services,Transportation Services,1.8,0.6,0,0.3,0.6
+Parking and other fees(1)(2),Services,Transportation Services,3.8,1.9,-2.6,1.1,1.9
+Parking fees and tolls(2)(3),Services,Transportation Services,4.8,1.8,-0.5,-0.8,1.3
+Public transportation,Services,Transportation Services,-4.8,0.9,-0.4,-0.1,1.3
+Airline fares,Services,Transportation Services,-6.4,1.7,-0.2,0.9,1.4
+Other intercity transportation,Services,Transportation Services,-3.4,-1.5,-1.2,-2.3,0.2
+Ship fare(1)(2)(3),Services,Transportation Services,9.1,2.1,-1.6,-0.6,2.1
+Intracity transportation(1),Services,Transportation Services,1.7,-1,-0.2,0.4,-1
+Intracity mass transit(1)(3)(8),Services,Transportation Services,2.1,-0.4,0,-0.3,-0.4
+Recreation services(8),Services,Entertainment Services,5.3,0.5,0.1,1.1,0.4
+Video and audio services(8),Services,Entertainment Services,5.3,0.6,-0.1,0.7,0.3
+"Cable, satellite, and live streaming television service(10)",Services,Entertainment Services,5.7,0.6,0,0.7,0.2
+"Purchase, subscription, and rental of video(1)(2)",Services,Entertainment Services,2.9,0.8,-0.8,0.4,0.8
+Video discs and other media(1)(2)(3),Services,Entertainment Services,10.5,0.6,-2.2,0.8,0.6
+Subscription and rental of video and video games(1)(2)(3),Services,Entertainment Services,0.9,-0.3,1.1,0.4,-0.3
+Pet services including veterinary(1)(2),Services,Pet Services,7,0.9,-0.3,0.9,0.9
+Pet services(1)(2)(3),Services,Pet Services,4.8,5.6,-2.1,0,5.6
+Veterinarian services(1)(2)(3),Services,Pet Services,9.6,-0.1,1,1.2,-0.1
+Photographers and photo processing(1)(2),Services,,4.1,0.7,0.1,0.1,0.7
+Other recreation services(2),Services,,4.8,0.4,0.3,1.6,0.4
+"Club membership for shopping clubs, fraternal, or other organizations, or participant sports fees(1)(2)",Services,,3.1,0.7,0.2,1.5,0.7
+Admissions(1),Services,,7,-0.3,0.9,1.4,-0.3
+"Admission to movies, theaters, and concerts(1)(2)(3)",Services,,5.2,0.4,1.5,1,0.4
+Admission to sporting events(1)(2)(3),Services,Educational Services,13.5,-0.9,0,3.2,-0.9
+Fees for lessons or instructions(1)(6),Services,Educational Services,6.2,0.7,-0.4,1.8,0.7
+Education and communication services(8),Services,Educational Services,1.3,0.4,0.1,0.2,0.4
+"Tuition, other school fees, and childcare",Services,Educational Services,2.7,0.2,0.1,0.2,0.4
+College tuition and fees,Services,Educational Services,1.3,0,0,0.2,0.2
+Elementary and high school tuition and fees,Services,Educational Services,4.9,0,0.2,0.3,0.3
+Day care and preschool(9),Services,Educational Services,4.7,0.8,0.3,0.4,0.7
+Technical and business school tuition and fees(1)(2),Services,Educational Services,1.7,0,0.2,0.1,0
+Postage and delivery services(2),Services,,1.2,2,-0.1,0.1,1.2
+Postage,Services,,0.8,1.5,-0.3,0.2,1.4
+Delivery services(2),Services,,3.6,4.7,0.9,-0.5,0.5
+Telephone services(1)(2),Services,Telecommunication Services,-2.1,0,0,0.1,0
+Wireless telephone services(1)(2),Services,Telecommunication Services,-3.2,-0.3,0,0,-0.3
+Residential telephone services(1)(8),Services,Telecommunication Services,4.5,1.4,0,0.8,1.4
+Internet services and electronic information providers(1)(2),Services,Telecommunication Services,3.8,1.2,0.2,0.1,1.2
+Other personal services(1)(8),Services,,6.8,1,0.3,0.1,1
+Personal care services(1),Services,,4.2,0.7,0.3,0.1,0.7
+Haircuts and other personal care services(1)(2),Services,,4.2,0.7,0.3,0.1,0.7
+Miscellaneous personal services(1),Services,,8.7,1.2,0.3,0.1,1.2
+Legal services(1)(6),Services,Legal Services,,,,,
+Funeral expenses(1)(6),Services,,4.7,0.4,0.7,0.5,0.4
+Laundry and dry cleaning services(1)(2),Services,,5.4,0.7,0.7,0.4,0.7
+Apparel services other than laundry and dry cleaning(1)(2),Services,,5.6,1.5,0.6,0.1,1.5
+Financial services(1)(6),Services,Financial Services,8.3,2.4,-0.1,-0.2,2.4
+Checking account and other bank services(1)(2)(3),Services,Financial Services,4.4,0,0,0.8,0
+Tax return preparation and other accounting fees(1)(2)(3),Services,Financial Services,11.2,,-0.1,,
+,,,,,,,

@@ -17,7 +17,7 @@ print("\nBefore sorting:")
 print(csvData)
 
 # sort data frame
-csvData.sort_values(["Previous Year: Jan.2023-Jan.2024"],
+csvData.sort_values(["Previous Year"],
                     axis=0,
                     ascending=[False],
                     inplace=True)

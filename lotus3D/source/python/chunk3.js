@@ -470,6 +470,7 @@ for (i = 0; i < link_order_length; i++) {
   function nowPlaying (k) {
       l = link_order.indexOf(k)
 
+      // for currency values, use this method
       //volume = col_G[l]    
       //volume = (new Intl.NumberFormat().format(volume));
 

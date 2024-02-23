@@ -13,13 +13,15 @@ TO DO:
 
 - Save sorted CSV with new filename.
 
+- Remove spaces in CSV column names.
+
 - Pull thumbnail images when files contain URL data.
 
 - Generate multiple pages of Lotus Charts (when spreadsheets contain >2000 rows).
 
 - Import from JSON.
 
-- Choice to generate original chart format for records sets <500 rows (lower performance, but more flexibility with filters).
+- Option to use original chart format for records sets <500 rows (this has lower performance, but more flexibility with filters).
 
 
 DATA NOTES:

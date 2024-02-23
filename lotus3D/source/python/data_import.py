@@ -8,14 +8,13 @@ csvData = pandasForSortingCSV.read_csv('../data/data.csv')
 list_of_column_names = list(csvData.columns)
 column_count = len(list_of_column_names)
 
-# displaying the list and number of column names
-print('Number of columns :', column_count)
-print('List of column names : ',
-      list_of_column_names)
+
+for item in list_of_column_names:
+    print(item)
 
 # displaying unsorted data frame
-print("\nBefore sorting:")
-print(csvData)
+# print("\nBefore sorting:")
+# print(csvData)
 
 
 # sort data frame
@@ -53,8 +52,7 @@ f1.close()
 lrg.close()
 
 lrg = open("lotus_renderer_gen.js", "a")
-#f2 = open("chunk2.js", "r")
-f3 = open("chunk3.js", "r")
+f2 = open("chunk2.js", "r")
 
 #generate datestamp, must be customized to reflect specific content and data schema of csv
 
@@ -79,14 +77,12 @@ def readcolumn(col_name):
 
     lrg.write("]\n")
 
-lrg.write("var col_A = [")
-readcolumn(list_of_column_names[0])
-
-#lrg.write(f2.read())
-#f2.close()
+for item in list_of_column_names:
+    lrg.write("var " + item + " = [")
+    readcolumn(item)
 
 # write remaining static js code to lotus_renderer_gen
-lrg.write(f3.read())
-f3.close()
+lrg.write(f2.read())
+f2.close()
 lrg.close()
 

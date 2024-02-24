@@ -26,6 +26,8 @@ TO DO:
 
 DATA NOTES:
 
+It is at the moment quite easy to accidentally overwrite or otherwise mess up the three js modules (code chunks) that form the base for the generated code. That is why source/python/code_chunks folder is there as a reference point, in case you need to restore them to their original working state.
+
 Original data views were designed to display financial quotes: a 150-symbol watch list, S&P 500, and the top 2000 US stocks by 2022 market capitalization (Russell 1K plus the the top half of the Russell 2K). 
 
 Symbols change from time to time, so these lists may not exactly match the current indexes.

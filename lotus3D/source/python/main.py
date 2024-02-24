@@ -35,60 +35,13 @@ f1.close()
 lrg.close()
 
 lrg = open("lotus_renderer_gen.js", "a")
-#f2 = open("chunk2.js", "r")
+
+f2 = open("chunk2.js", "r")
+lrg.write(f2.read())
+f2.close()
+
 f3 = open("chunk3.js", "r")
-
-date = str(csvData["Date"][1])
-time = str(csvData["Time"][1])
-
-change=[]
-open=[]
-high=[]
-low=[]
-volume=[]
-
-lrg.write("var time = '")
-lrg.write(time)
-lrg.write("'\n")
-
-lrg.write("var date = '")
-lrg.write(date)
-lrg.write("'\n")
-
-def readcolumn(col_name):
-    for x in range(length):
-        lrg.write("'")
-        value = str(csvData[col_name][x])
-        lrg.write(value)
-        lrg.write("',")
-
-    lrg.write("]\n")
-
-lrg.write("var col_A = [")
-readcolumn("Symbol")
-
-lrg.write("var col_B = [")
-readcolumn("Current Price")
-
-lrg.write("var col_C = [")
-readcolumn("Change")
-
-lrg.write("var col_D = [")
-readcolumn("Open")
-
-lrg.write("var col_E = [")
-readcolumn("High")
-
-lrg.write("var col_F = [")
-readcolumn("Low")
-
-lrg.write("var col_G = [")
-readcolumn("Volume")
-
-#lrg.write(f2.read())
-#f2.close()
-
-# write remaining static js code to lotus_renderer_gen
 lrg.write(f3.read())
 f3.close()
+
 lrg.close()

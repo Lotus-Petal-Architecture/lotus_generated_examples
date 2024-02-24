@@ -23,10 +23,12 @@ TO DO:
 
 - Option to use original chart format for records sets <500 rows (this has lower performance, but more flexibility with filters).
 
+- User input prompt allowing users to confirm labels and data types for specific columns.
+
 
 DATA NOTES:
 
-It is at the moment quite easy to accidentally overwrite or otherwise mess up the three js modules (code chunks) that form the base for the generated code. That is why source/python/code_chunks folder is there as a reference point, in case you need to restore them to their original working state.
+The Lotus Renderer now includes separate variables for column labels and for the columns themselves. Columns will always use letters of the alphabet (col_A, col_B, and so forth). Column labels are string values -- to be pulled from the CSV itself, but also customizable via the generator script -- whose function is analogous to the header row in a spreadsheet.
 
 Original data views were designed to display financial quotes: a 150-symbol watch list, S&P 500, and the top 2000 US stocks by 2022 market capitalization (Russell 1K plus the the top half of the Russell 2K). 
 

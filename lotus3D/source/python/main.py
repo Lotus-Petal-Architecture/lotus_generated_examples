@@ -29,18 +29,18 @@ print(length)
 
 # open copy of lotus renderer source code to insert array values
 lrg = open("lotus_renderer_gen.js", "w")
-f1 = open("chunks/chunk1.js", "r")
+f1 = open("js_modules/chunk1.js", "r")
 lrg.write(f1.read())
 f1.close()
 lrg.close()
 
 lrg = open("lotus_renderer_gen.js", "a")
 
-f2 = open("chunks/chunk2.js", "r")
+f2 = open("js_modules/chunk2.js", "r")
 lrg.write(f2.read())
 f2.close()
 
-f3 = open("chunks/chunk3.js", "r")
+f3 = open("js_modules/chunk3.js", "r")
 lrg.write(f3.read())
 f3.close()
 

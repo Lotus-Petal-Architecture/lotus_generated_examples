@@ -1,3 +1,5 @@
+//end dynamic values populated by Python generator script
+
 
   var percent_change = []
   var xmlhttp = new XMLHttpRequest()

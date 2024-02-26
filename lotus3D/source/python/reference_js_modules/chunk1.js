@@ -46,3 +46,7 @@ var r = 100,
   var k_values = [] // list of all k values generated for corresponding module chart lines
   var active_links = [] //index values of active links
   var active_links2 = [] //index values of active links
+
+
+//dynamically generated code is inserted here
+

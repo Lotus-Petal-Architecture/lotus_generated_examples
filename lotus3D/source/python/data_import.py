@@ -8,9 +8,8 @@ csvData = pandasForSortingCSV.read_csv('../data/data.csv')
 list_of_column_names = list(csvData.columns)
 column_count = len(list_of_column_names)
 
-
-for item in list_of_column_names:
-    print(item)
+#for item in list_of_column_names:
+    #print(item)
 
 # displaying unsorted data frame
 # print("\nBefore sorting:")
@@ -28,8 +27,8 @@ def sortframe(sortcol):
     print("\nAfter sorting:")
     print(csvData)
 
-#sortcol = "Expenditure"
-#sortframe(sortcol)
+sortcol = (list_of_column_names[0])
+sortframe(sortcol)
 
 sortedData = csvData.to_csv(index=False)
 
@@ -41,21 +40,21 @@ sortedQuotes.close()
 csvData = pandasForSortingCSV.read_csv("sorteddata.csv")
 
 length = csvData.shape[0]
-print("\nNumber of Rows:")
-print(length)
+#print("\nNumber of Rows:")
+#print(length)
 
 # open copy of lotus renderer source code to insert array values
 lrg = open("lotus_renderer_gen.js", "w")
-f1 = open("js_modules/chunk1.js", "r")
+f1 = open("reference_js_modules/chunk1.js", "r")
 lrg.write(f1.read())
 f1.close()
 lrg.close()
 
 lrg = open("lotus_renderer_gen.js", "a")
-f2 = open("js_modules/chunk2.js", "r")
+#f2 = open("chunk2.js", "r")
 
-#generate datestamp, must be customized to reflect specific content and data schema of csv
-
+# generate datestamp, must be customized to reflect specific content and data schema of csv
+# we need some if/then logic here, but it's fussy
 def datetime():
     date = str(csvData["Date"][1])
     time = str(csvData["Time"][1])
@@ -68,6 +67,15 @@ def datetime():
     lrg.write(date)
     lrg.write("'\n")
 
+#datetime()
+
+lrg.write("var time = ' '")
+lrg.write("\n")
+
+lrg.write("var date = ' '")
+lrg.write("\n")
+lrg.write("\n")
+
 def readcolumn(col_name):
     for x in range(length):
         lrg.write("'")
@@ -77,12 +85,27 @@ def readcolumn(col_name):
 
     lrg.write("]\n")
 
-for item in list_of_column_names:
-    lrg.write("var " + item + " = [")
-    readcolumn(item)
+def assignColumns(col_list):
+    for item in col_list:
+        position = col_list.index(item)
+        letter = bytes("A", 'utf-8')
+        letter = letter[0] + position
+        col_id = "col_" + chr(letter)
+        print(col_id, item)
+        lrg.write("var " + col_id + " = [")
+        readcolumn(item)
+        label_id = "label_" + chr(letter)
+        lrg.write("var " + label_id + " = '" + item + "'")
+        lrg.write("\n")
+        lrg.write("\n")
+
+assignColumns(list_of_column_names)
 
 # write remaining static js code to lotus_renderer_gen
-lrg.write(f2.read())
-f2.close()
-lrg.close()
+#lrg.write(f2.read())
+#f2.close()
 
+f3 = open("reference_js_modules/chunk3.js", "r")
+lrg.write(f3.read())
+f3.close()
+lrg.close()

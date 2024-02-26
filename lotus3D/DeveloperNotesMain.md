@@ -51,7 +51,11 @@ Dark Green: #014421
 
 Lotus Blue: #00769d
 
+Variant Blues: #0289b6, #0099cc
+
 Background Blues: #AED6F1, #A9CCE3
+
+Inactive: #b5cce3
 
 
 FURTHER NOTES:

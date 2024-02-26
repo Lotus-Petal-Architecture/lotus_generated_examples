@@ -73,6 +73,7 @@ var col_E = ["0.5","0.6","0.7","0.2","0.3","2.7","-0.8","0.4","-0.6","0.1","0.3"
 
 var label_E = "PreviousMonth"
 
+var rowcount = 340
 //end dynamic values populated by Python generator script
 
 
@@ -622,8 +623,8 @@ for (i = 0; i < link_order_length; i++) {
       obj = intersection.object
       k = obj.label
       l = link_order.indexOf(k)   //connects the k value -- position on lotus petal graph -- to ID for link value
-      var URL = "https://finance.yahoo.com/quote/" + //col_A[l]
-      window.open(URL, '_blank')
+      //var URL = "https://www.bls.gov/news.release/cpi.t02.htm" + col_A[l]
+      //window.open(URL, '_blank')
     }
   }
 

@@ -39,9 +39,9 @@ sortedQuotes.close()
 
 csvData = pandasForSortingCSV.read_csv("sorteddata.csv")
 
-length = csvData.shape[0]
-#print("\nNumber of Rows:")
-#print(length)
+rowcount = csvData.shape[0]
+print("\nNumber of Rows:")
+print(rowcount)
 
 # open copy of lotus renderer source code to insert array values
 lrg = open("lotus_renderer_gen.js", "w")
@@ -77,7 +77,7 @@ lrg.write("\n")
 lrg.write("\n")
 
 def readcolumn(col_name):
-    for x in range(length):
+    for x in range(rowcount):
         lrg.write('"')
         value = str(csvData[col_name][x])
         lrg.write(value)
@@ -100,6 +100,11 @@ def assignColumns(col_list):
         lrg.write("\n")
 
 assignColumns(list_of_column_names)
+
+rows = str(rowcount)
+lrg.write('var rowcount = ' + rows)
+lrg.write("\n")
+
 
 # write remaining static js code to lotus_renderer_gen
 #lrg.write(f2.read())

@@ -12,9 +12,8 @@ column_count = len(list_of_column_names)
     #print(item)
 
 # displaying unsorted data frame
-# print("\nBefore sorting:")
-# print(csvData)
-
+print("\nBefore sorting:")
+print(csvData)
 
 # sort data frame
 
@@ -27,8 +26,9 @@ def sortframe(sortcol):
     print("\nAfter sorting:")
     print(csvData)
 
-sortcol = (list_of_column_names[0])
-sortframe(sortcol)
+#sortcol = (list_of_column_names[0])
+#print (sortcol)
+#sortframe(sortcol)
 
 sortedData = csvData.to_csv(index=False)
 
@@ -78,10 +78,10 @@ lrg.write("\n")
 
 def readcolumn(col_name):
     for x in range(length):
-        lrg.write("'")
+        lrg.write('"')
         value = str(csvData[col_name][x])
         lrg.write(value)
-        lrg.write("',")
+        lrg.write('",')
 
     lrg.write("]\n")
 
@@ -90,12 +90,12 @@ def assignColumns(col_list):
         position = col_list.index(item)
         letter = bytes("A", 'utf-8')
         letter = letter[0] + position
-        col_id = "col_" + chr(letter)
-        print(col_id, item)
-        lrg.write("var " + col_id + " = [")
+        col_id = 'col_' + chr(letter)
+        lrg.write('var ' + col_id + ' = [')
         readcolumn(item)
+        lrg.write("\n")
         label_id = "label_" + chr(letter)
-        lrg.write("var " + label_id + " = '" + item + "'")
+        lrg.write('var ' + label_id + ' = "' + item + '"')
         lrg.write("\n")
         lrg.write("\n")
 

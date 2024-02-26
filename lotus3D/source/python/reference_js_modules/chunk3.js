@@ -26,7 +26,7 @@ function calc_percent ()   //use this function if you need to show percent chang
     }
 }
 
-calc_percent();
+//calc_percent();
 
 function assignLinks () //this assigns k values to the ranked link ids, so that the highest values occur at the highest chart points for each concentric ring.
 
@@ -361,7 +361,7 @@ drawPetalRing (14, .85, .1, 0x0289b6, 700, 50)  //middle petals
 
 drawPetalRing (16, 1, 0,  0x0099cc, 800, 50)  //outer petals
 
-getActiveLinks();
+//getActiveLinks();
 addLinks();
 render();
 
@@ -484,12 +484,12 @@ for (i = 0; i < link_order_length; i++) {
       '<br><br><b>' + label_A +'</b>: ' + col_A[l] + '&nbsp; &nbsp;'  
       + '<br><b>' + label_B + '</b>: ' + '$' + col_B[l] + '&nbsp; &nbsp;'
       + '<br><b>' + label_C + '</b>: ' + col_C[l] + '%'
-      + '<br><b>' + label_G + ':</b> ' + '$' + col_G[l] + '&nbsp; &nbsp;'
+      //+ '<br><b>' + label_G + ':</b> ' + '$' + col_G[l] + '&nbsp; &nbsp;'
       + '<b>' + label_D + ':</b> ' + '$' + col_D[l] + '&nbsp; &nbsp;' +  
-      '<br><b>' + label_E + ':</b> ' + '$' + col_E[l] + '&nbsp; &nbsp;' + '<b>' + label_F + ':</b> ' + '$'  + col_F[l] 
+      '<br><b>' + label_E + ':</b> ' + '$' + col_E[l] + '&nbsp; &nbsp;' + '<b>' //+ label_F + ':</b> ' + '$'  + col_F[l] 
             }
 
-  function datestamp (date,time) {
+ function datestamp (date,time) {
   document.getElementById('datestamp').innerHTML =
       '<span style = "color:#00A86B; font-weight:bold; font-size: 16px;">Trending Up</span>&nbsp; '+ active_links.length + ' links<br>' +
       '<span style = "color:#fa8072; font-weight:bold; font-size: 16px;">Trending Down</span>&nbsp; '+ active_links2.length + ' links<br>' +
@@ -497,7 +497,7 @@ for (i = 0; i < link_order_length; i++) {
       }
 
 
-  datestamp(date,time); 
+ // datestamp(date,time);
 
 
   // --- raycaster code
@@ -547,7 +547,7 @@ for (i = 0; i < link_order_length; i++) {
       obj = intersection.object
       k = obj.label
       l = link_order.indexOf(k)   //connects the k value -- position on lotus petal graph -- to ID for link value
-      var URL = "https://finance.yahoo.com/quote/" + col_A[l]
+      var URL = "https://finance.yahoo.com/quote/" + //col_A[l]
       window.open(URL, '_blank')
     }
   }

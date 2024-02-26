@@ -28,13 +28,15 @@ TO DO:
 
 DATA NOTES:
 
-The Lotus Renderer now includes separate variables for column labels and for the columns themselves. Columns will always use letters of the alphabet (col_A, col_B, and so forth). Column labels are string values -- to be pulled from the CSV itself, but also customizable via the generator script -- whose function is analogous to the header row in a spreadsheet.
+Data suffixes and prefixes (e.g. $ and %) are mostly incorrect. These will eventually be specified via user prompt, but for now the source js_modules can be updated if desired.
+
+The Lotus Renderer now includes separate variables for column labels and for the columns themselves. Columns will always use letters of the alphabet (col_A, col_B, and so forth). Column labels are string values pulled from the CSV itself, whose function is analogous to the header row in a spreadsheet.
 
 Original data views were designed to display financial quotes: a 150-symbol watch list, S&P 500, and the top 2000 US stocks by 2022 market capitalization (Russell 1K plus the the top half of the Russell 2K). 
 
 Symbols change from time to time, so these lists may not exactly match the current indexes.
 
-The working_schemas folders contains an example with the correct column names for daily stock quotes, and an example of generic generated code that substitutes alphabetic column labels into the generated Lotus Renderer code. These are included for reference only. In theory, you could manually cut and paste values from any CSV spreadsheet into generic_spreadsheet/python/lotus_renderer_gen.js, but you probably would not want to!
+The working_schemas folders contains an example with the correct column names for daily stock quotes, and an example of generic generated code that substitutes alphabetic column names into the generated Lotus Renderer code. These are included for reference only. In theory, you could manually cut and paste values from any CSV spreadsheet into generic_spreadsheet/python/lotus_renderer_gen.js, but you probably would not want to!
 
 
 STYLE NOTES:

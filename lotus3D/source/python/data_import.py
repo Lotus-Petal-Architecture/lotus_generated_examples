@@ -106,7 +106,11 @@ lrg.write('var rowcount = ' + rows)
 lrg.write("\n")
 
 lrg.write("\n")
-lrg.write('var filter1 = col_E')  #this will eventually be replaced by variable selected by user
+lrg.write('var filter1 = col_D')  #this will eventually be replaced by variable selected by user
+lrg.write("\n")
+
+lrg.write("\n")
+lrg.write('var filter2 = col_E')  #this will eventually be replaced by variable selected by user
 lrg.write("\n")
 lrg.write("\n")
 

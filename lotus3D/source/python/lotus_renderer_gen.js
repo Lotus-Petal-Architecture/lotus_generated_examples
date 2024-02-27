@@ -75,7 +75,9 @@ var label_E = "Previous Month"
 
 var rowcount = 340
 
-var filter1 = col_E
+var filter1 = col_D
+
+var filter2 = col_E
 
 //end dynamic values populated by Python generator script
 
@@ -452,22 +454,36 @@ function getActiveLinks()  //sorts for a given set of values from the data obtai
 {
 
     var f = filter1.entries();
+    var g = filter2.entries();
 
     for (x of f) {
       var quote =x;
       var change_value = quote[1];
       var change_index = quote[0];
 
-      if (change_value < -.25) {  // trend can also be specified as a variable in index.html [uptrend]
+      if (change_value > 5) {  // trend can also be specified as a variable in index.html [uptrend]
         
         active_links.push(change_index);
       }
+    }
 
-      else if (change_value > 3) {  // trend can also be specified as a variable in index.html [downtrend]
+      /*else if (change_value < 0) {  // trend can also be specified as a variable in index.html [downtrend]
         change_index = quote[0]
         active_links2.push(change_index);
       }
-    }
+
+    for (x of g) {
+      var quote =x;
+      var change_value = quote[1];
+      var change_index = quote[0];
+
+      if (change_value > 5) {  // trend can also be specified as a variable in index.html [uptrend]
+        
+        active_links2.push(change_index);
+      }
+       
+      
+    }*/
 }
 
 /*function getActiveLinks()  // how we do this for percent values
@@ -505,7 +521,7 @@ for (i = 0; i < link_order_length; i++) {
     if (active_links.includes(i)) {
 
       var k = link_order[i];
-      var color_code = 0x00A86B; 
+      var color_code = 0xbd4840; 
 
       visibleSpaghetti(
         k,
@@ -524,7 +540,7 @@ for (i = 0; i < link_order_length; i++) {
     if (active_links2.includes(i)) {
 
       var k = link_order[i];
-      var color_code = 0xfa8072;
+      var color_code = 0xbd4840;
 
       visibleSpaghetti(
         k,
@@ -593,8 +609,8 @@ for (i = 0; i < link_order_length; i++) {
 
  function datestamp (date,time) {
   document.getElementById('datestamp').innerHTML =
-      '<span style = "color:#00A86B; font-weight:bold; font-size: 16px;">Trend One</span>&nbsp; '+ active_links.length + ' links<br>' +
-      '<span style = "color:#fa8072; font-weight:bold; font-size: 16px;">Trend Two</span>&nbsp; '+ active_links2.length + ' links<br>' //+
+      '<span style = "color:#bd4840; font-weight:bold; font-size: 16px;">Previous Year</span>&nbsp; '+ active_links.length + ' Item<br> categories showed price increases of 5% or more.' 
+     //+ '<span style = "color:#963636; font-weight:bold; font-size: 16px;">Previous Month </span>&nbsp; '+ active_links2.length + ' links<br>' //+
       //time + " &nbsp;" + date
       }
 

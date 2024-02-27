@@ -1,11 +1,17 @@
+Right now what we have is a somewhat cleaner but still fairly labor-intensive way to import data into a new Lotus Chart. I would estimate the time to massage and prep a new spreadsheet file to work with the current Python generator script at somewhere between 1-3 hours. I am leaving the CPI data as sample data. If you try it out with a new CSV, you would need to modify the filter features [getActiveLinks] in the js modules in order to get the chart to render correctly. Links are also disabled from the chart lines, because there are no custom URLs available from this dataset.
+
+The Lotus Chart also works great with dynamic APIs... it's just that most interesting live data streams cost money. If you have a real world use case for this functionality, or would like to try it out, please message me! 
+
 
 TO DO:
 
 - Text search.
 
+- Automatic generation of thumbnail images.
+
 - index.html should be dynamically generated.
 
-- Add automatic formatting of currency values and percentages to use commas, round to two decimal places.
+- Restore automatic formatting of currency values and percentages to use commas, round to two decimal places.
 
 - Get filename from file path [right now the CSV to be converted must be renamed to data.csv]. 
 
@@ -25,12 +31,14 @@ TO DO:
 
 - User input prompt allowing users to confirm labels and data types for specific columns.
 
-- Filter by set
+- Filter by set.
+
+- Need better logic to establish filter criteria.
 
 
 DATA NOTES:
 
-Data suffixes and prefixes (e.g. $ and %) are mostly incorrect. These will eventually be specified via user prompt, but for now the source js_modules can be updated if desired.
+Data suffixes and prefixes (ex. $ and %) currently need to be updated manually. Same with sort column, and filter values and labels. These will eventually be specified via user prompt.
 
 The Lotus Renderer now includes separate variables for column labels and for the columns themselves. Columns will always use letters of the alphabet (col_A, col_B, and so forth). Column labels are string values pulled from the CSV itself, whose function is analogous to the header row in a spreadsheet.
 

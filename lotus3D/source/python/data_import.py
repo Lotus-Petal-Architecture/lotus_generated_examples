@@ -105,6 +105,10 @@ rows = str(rowcount)
 lrg.write('var rowcount = ' + rows)
 lrg.write("\n")
 
+lrg.write("\n")
+lrg.write('var filter1 = col_E')  #this will eventually be replaced by variable selected by user
+lrg.write("\n")
+lrg.write("\n")
 
 # write remaining static js code to lotus_renderer_gen
 #lrg.write(f2.read())

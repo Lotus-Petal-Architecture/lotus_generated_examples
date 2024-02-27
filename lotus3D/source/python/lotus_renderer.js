@@ -74,6 +74,13 @@ var col_E = ["0.5","0.6","0.7","0.2","0.3","2.7","-0.8","0.4","-0.6","0.1","0.3"
 var label_E = "PreviousMonth"
 
 var rowcount = 340
+
+var filter1 = col_D
+
+var filter2 = col_E
+
+
+
 //end dynamic values populated by Python generator script
 
 
@@ -103,6 +110,7 @@ function calc_percent ()   //use this function if you need to show percent chang
 }
 
 //calc_percent();
+
 
 function assignLinks () //this assigns k values to the ranked link ids, so that the highest values occur at the highest chart points for each concentric ring.
 
@@ -437,7 +445,7 @@ drawPetalRing (14, .85, .1, 0x0289b6, 700, 50)  //middle petals
 
 drawPetalRing (16, 1, 0,  0x0099cc, 800, 50)  //outer petals
 
-//getActiveLinks();
+getActiveLinks();
 addLinks();
 render();
 
@@ -445,6 +453,28 @@ document.getElementById('nowplaying').innerHTML =
       '<br><br><br><br><br>'
 
 function getActiveLinks()  //sorts for a given set of values from the data obtained above
+{
+
+    var f = filter1.entries();
+
+    for (x of f) {
+      var quote =x;
+      var change_value = quote[1];
+      var change_index = quote[0];
+
+      if (change_value > 2) {  // uptrend can also be specified as a variable in index.html
+        
+        active_links.push(change_index);
+      }
+
+      else if (change_value < 0) {  // downtrend can also be specified as a variable in index.html
+        change_index = quote[0]
+        active_links2.push(change_index);
+      }
+    }
+}
+
+/*function getActiveLinks()  // how we do this for percent values
 {
 
     var f = percent_change.entries();
@@ -464,7 +494,7 @@ function getActiveLinks()  //sorts for a given set of values from the data obtai
         active_links2.push(change_index);
       }
     }
-}
+}*/
 
 console.log (active_links.length)
 console.log (active_links2.length)
@@ -568,12 +598,12 @@ for (i = 0; i < link_order_length; i++) {
  function datestamp (date,time) {
   document.getElementById('datestamp').innerHTML =
       '<span style = "color:#00A86B; font-weight:bold; font-size: 16px;">Trending Up</span>&nbsp; '+ active_links.length + ' links<br>' +
-      '<span style = "color:#fa8072; font-weight:bold; font-size: 16px;">Trending Down</span>&nbsp; '+ active_links2.length + ' links<br>' +
-      time + " &nbsp;" + date
+      '<span style = "color:#fa8072; font-weight:bold; font-size: 16px;">Trending Down</span>&nbsp; '+ active_links2.length + ' links<br>' //+
+      //time + " &nbsp;" + date
       }
 
 
- // datestamp(date,time);
+datestamp(date,time);
 
 
   // --- raycaster code

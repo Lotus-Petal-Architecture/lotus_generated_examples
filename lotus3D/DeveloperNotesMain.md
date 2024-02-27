@@ -25,6 +25,8 @@ TO DO:
 
 - User input prompt allowing users to confirm labels and data types for specific columns.
 
+- Filter by set
+
 
 DATA NOTES:
 

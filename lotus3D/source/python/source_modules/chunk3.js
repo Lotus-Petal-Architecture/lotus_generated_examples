@@ -383,6 +383,8 @@ function getActiveLinks()  //sorts for a given set of values from the data obtai
       if (change_value > 5) {  // trend can also be specified as a variable in index.html [uptrend]
         
         active_links.push(change_index);
+        console.log(change_index);
+        console.log(change_value);
       }
     }
 

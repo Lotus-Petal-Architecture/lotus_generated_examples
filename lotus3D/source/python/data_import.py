@@ -44,13 +44,13 @@ print("\nNumber of Rows:")
 print(rowcount)
 
 # open copy of lotus renderer source code to insert array values
-lrg = open("lotus_renderer_gen.js", "w")
+lrg = open("../data_view/lotus_renderer_gen.js", "w")
 f1 = open("source_modules/chunk1.js", "r")
 lrg.write(f1.read())
 f1.close()
 lrg.close()
 
-lrg = open("lotus_renderer_gen.js", "a")
+lrg = open("../data_view/lotus_renderer_gen.js", "a")
 f2 = open("source_modules/chunk2.js", "w")
 
 # generate datestamp, must be customized to reflect specific content and data schema of csv

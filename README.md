@@ -1,8 +1,6 @@
 # lotuschart
 Lotus Charts generated using Python on a local client machine.
 
-Threw these Python scripts together very quickly while recovering from surgery in Fall 2022. Goal is to make the schema more generic, so it can be used with any type of CSV data and not just financial quotes. Generated code is still very much a work-in-progress! 
-
 The Lotus Chart is a new type of experimental UI that combines parametric geometry with hyperlinks to render thousands of clickable Uniform Resource Identifiers (URIs) visible on a single computer screen at the same time, with visual cues providing metadata, context, and navigational hints. The result is an interactive 3D data map, accessible from any web browser. Lines on a Lotus Chart typically show trading symbols, media content, a web link, or rows within a database. This type of visualization requires no external software and is compatible with most REST API’s.
 
 <a href ="https://web.lotus.fm/examples/">See examples here.</a>

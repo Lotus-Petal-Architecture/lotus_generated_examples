@@ -45,13 +45,13 @@ print(rowcount)
 
 # open copy of lotus renderer source code to insert array values
 lrg = open("lotus_renderer_gen.js", "w")
-f1 = open("reference_js_modules/chunk1.js", "r")
+f1 = open("source_modules/chunk1.js", "r")
 lrg.write(f1.read())
 f1.close()
 lrg.close()
 
 lrg = open("lotus_renderer_gen.js", "a")
-#f2 = open("chunk2.js", "r")
+f2 = open("source_modules/chunk2.js", "w")
 
 # generate datestamp, must be customized to reflect specific content and data schema of csv
 # we need some if/then logic here, but it's fussy
@@ -59,31 +59,31 @@ def datetime():
     date = str(csvData["Date"][1])
     time = str(csvData["Time"][1])
 
-    lrg.write("var time = '")
-    lrg.write(time)
-    lrg.write("'\n")
+    f2.write("var time = '")
+    f2.write(time)
+    f2.write("'\n")
 
-    lrg.write("var date = '")
-    lrg.write(date)
-    lrg.write("'\n")
+    f2.write("var date = '")
+    f2.write(date)
+    f2.write("'\n")
 
 #datetime()
 
-lrg.write("var time = ' '")
-lrg.write("\n")
+f2.write("var time = ' '")
+f2.write("\n")
 
-lrg.write("var date = ' '")
-lrg.write("\n")
-lrg.write("\n")
+f2.write("var date = ' '")
+f2.write("\n")
+f2.write("\n")
 
 def readcolumn(col_name):
     for x in range(rowcount):
-        lrg.write('"')
+        f2.write('"')
         value = str(csvData[col_name][x])
-        lrg.write(value)
-        lrg.write('",')
+        f2.write(value)
+        f2.write('",')
 
-    lrg.write("]\n")
+    f2.write("]\n")
 
 def assignColumns(col_list):
     for item in col_list:
@@ -91,34 +91,37 @@ def assignColumns(col_list):
         letter = bytes("A", 'utf-8')
         letter = letter[0] + position
         col_id = 'col_' + chr(letter)
-        lrg.write('var ' + col_id + ' = [')
+        f2.write('var ' + col_id + ' = [')
         readcolumn(item)
-        lrg.write("\n")
+        f2.write("\n")
         label_id = "label_" + chr(letter)
-        lrg.write('var ' + label_id + ' = "' + item + '"')
-        lrg.write("\n")
-        lrg.write("\n")
+        f2.write('var ' + label_id + ' = "' + item + '"')
+        f2.write("\n")
+        f2.write("\n")
 
 assignColumns(list_of_column_names)
 
 rows = str(rowcount)
-lrg.write('var rowcount = ' + rows)
-lrg.write("\n")
+f2.write('var rowcount = ' + rows)
+f2.write("\n")
 
-lrg.write("\n")
-lrg.write('var filter1 = col_D')  #this will eventually be replaced by variable selected by user
-lrg.write("\n")
+f2.write("\n")
+f2.write('var filter1 = col_D')  #this will eventually be replaced by variable selected by user
+f2.write("\n")
 
-lrg.write("\n")
-lrg.write('var filter2 = col_E')  #this will eventually be replaced by variable selected by user
-lrg.write("\n")
-lrg.write("\n")
+f2.write("\n")
+f2.write('var filter2 = col_E')  #this will eventually be replaced by variable selected by user
+f2.write("\n")
+f2.write("\n")
+
+f2.close()
 
 # write remaining static js code to lotus_renderer_gen
-#lrg.write(f2.read())
-#f2.close()
+f2 = open("source_modules/chunk2.js", "r")
+lrg.write(f2.read())
+f2.close()
 
-f3 = open("reference_js_modules/chunk3.js", "r")
+f3 = open("source_modules/chunk3.js", "r")
 lrg.write(f3.read())
 f3.close()
 lrg.close()

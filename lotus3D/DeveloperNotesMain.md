@@ -1,6 +1,12 @@
-Right now what we have is a somewhat cleaner but still fairly labor-intensive way to import data into a new Lotus Chart. I would estimate the time to massage and prep a new spreadsheet file to work with the current Python generator script at somewhere between 1-3 hours. I am leaving the CPI data as sample data. If you try it out with a new CSV, you would need to modify the filter features [getActiveLinks] in the js modules in order to get the chart to render correctly. Links are also disabled from the chart lines, because there are no custom URLs available from this dataset.
+Right now what we have is a somewhat cleaner but still not entirely automated way to import data from a local CSV file into a new Lotus Chart. 
 
-The Lotus Chart also works great with dynamic APIs... it's just that most interesting live data streams cost money. If you have a real world use case for this functionality, or would like to try it out, please message me! 
+I am leaving the February 2024 CPI data as sample data. The resulting 3D visualization is saved in the folder at lotus3D/source/data_view/index.html.
+
+I would estimate the time to massage and prep a new spreadsheet file to work with the current Python generator script at 1-2 hours. If you try it out with a new CSV, you would need to modify the filter logic [getActiveLinks] in the js modules in order to get the chart to render correctly. Links are also currently disabled on the chart lines, because there are no custom URLs available for this dataset.
+
+Please note that the Lotus Chart does in fact worth great with dynamic APIs. You can see two such implementations (YouTube, CoinMarketCap) at https://web.lotus.fm/examples.  
+
+If you have an idea for how to use this functionality (whether static or dynamic) in the real world, or would just like help trying it out, please message me! 
 
 
 TO DO:
@@ -10,6 +16,8 @@ TO DO:
 - Automatic generation of thumbnail images.
 
 - index.html should be dynamically generated.
+
+- User input prompt allowing users to confirm labels and data types for specific columns.
 
 - Restore automatic formatting of currency values and percentages to use commas, round to two decimal places.
 
@@ -21,15 +29,11 @@ TO DO:
 
 - Remove spaces in CSV column names.
 
-- Pull thumbnail images when files contain URL data.
-
-- Generate multiple pages of Lotus Charts (when spreadsheets contain >2000 rows).
+- Generate multiple pages of Lotus Charts (when spreadsheets contain > 2000 rows).
 
 - Import from JSON.
 
-- Option to use original chart format for records sets <500 rows (this has lower performance, but more flexibility with filters).
-
-- User input prompt allowing users to confirm labels and data types for specific columns.
+- Option to use original chart format for records sets < 500 rows (this has lower performance, but visually it is a little more slick and provides greater flexibility with filters).
 
 - Filter by set.
 
@@ -46,7 +50,7 @@ Original data views were designed to display financial quotes: a 150-symbol watc
 
 Symbols change from time to time, so these lists may not exactly match the current indexes.
 
-The working_schemas folders contains an example with the correct column names for daily stock quotes, and an example of generic generated code that substitutes alphabetic column names into the generated Lotus Renderer code. These are included for reference only. In theory, you could manually cut and paste values from any CSV spreadsheet into generic_spreadsheet/python/lotus_renderer_gen.js, but you probably would not want to!
+Older examples found in the working_schemas folder do not use the alphabetic column names.
 
 
 STYLE NOTES:

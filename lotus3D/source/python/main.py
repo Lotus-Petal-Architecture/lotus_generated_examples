@@ -1,6 +1,6 @@
 import data_import
 
-#assembles Lotus Renderer js
+# assembles Lotus Renderer js
 
 # open copy of lotus renderer source code to insert array values
 lrg = open("../data_view/lotus_renderer_gen.js", "w")

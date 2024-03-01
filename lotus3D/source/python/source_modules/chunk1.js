@@ -1,4 +1,4 @@
-//Copyright 2024 by Elizabeth Gadwa
+//Copyright 2024 by Lotus.fm LLC
 
 var camera, scene, raycaster, renderer, parentTransform
 var mouse = new THREE.Vector2()

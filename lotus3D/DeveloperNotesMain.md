@@ -1,4 +1,6 @@
-Right now what we have is a somewhat cleaner but still not entirely automated way to import data from a local CSV file into a new Lotus Chart. 
+Right now what we have is a somewhat cleaner but still not entirely automated way to import data from a local CSV file into a new Lotus Chart.
+
+All health information contained in this repository is fiction (generated). No PHI (**Personal Health Information**) is used.
 
 I am leaving the February 2024 CPI data as sample data. The <a href="https://github.com/tessgadwa/lotus3D/blob/main/lotus3D/screenshots/CPI_example.png">resulting 3D visualization</a> is saved in the folder at lotus3D/source/data_view/index.html. Screenshot: lotus3D/screenshots/CPI_example.png
 

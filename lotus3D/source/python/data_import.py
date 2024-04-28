@@ -11,9 +11,6 @@ column_count = len(list_of_column_names)
 #for item in list_of_column_names:
     #print(item)
 
-# displaying unsorted data frame
-print("\nBefore sorting:")
-print(csvData)
 
 # sort data frame
 
@@ -23,12 +20,19 @@ def sortframe(sortcol):
                     ascending=[False],
                     inplace=True)
 
-    print("\nAfter sorting:")
-    print(csvData)
 
-#sortcol = (list_of_column_names[0])
-#print (sortcol)
-#sortframe(sortcol)
+
+sortcol = (list_of_column_names[2])
+print (sortcol)
+sortframe(sortcol)
+
+# displaying unsorted data frame
+print("\nBefore sorting:")
+print(csvData)
+
+
+print("\nAfter sorting:")
+print(csvData)
 
 sortedData = csvData.to_csv(index=False)
 
@@ -106,7 +110,7 @@ f2.write('var rowcount = ' + rows)
 f2.write("\n")
 
 f2.write("\n")
-f2.write('var filter1 = col_D')  #this will eventually be replaced by variable selected by user
+f2.write('var filter1 = col_I')  #this will eventually be replaced by variable selected by user
 f2.write("\n")
 
 f2.write("\n")

@@ -41,6 +41,8 @@ TO DO:
 
 - Need better logic to establish filter criteria.
 
+- KNOWN ISSUE: Screen goes to black when visualization is resized on some computers.
+
 
 DATA NOTES:
 

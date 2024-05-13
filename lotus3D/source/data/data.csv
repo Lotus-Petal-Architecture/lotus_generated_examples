@@ -1,5 +1,201 @@
-Symptoms,Diagnosis,Severity,Health_Story,Treatment,State,Age,Gender,Verified_by_Provider
-"Headache, fatigue, nausea",Migraine,4,"I've been suffering from severe migraines for years. The intense throbbing pain, often accompanied by nausea and sensitivity to light and sound, would leave me bedridden for days. Despite trying various medications and lifestyle changes, the migraines persisted, significantly impacting my work and personal life. After consulting with a neurologist, I was prescribed a new preventative medication combined with specific dietary adjustments, which finally provided relief from the debilitating symptoms.","Preventative medication, dietary changes",CA,32,Female,TRUE
-"Chest pain, shortness of breath",Angina,3,"For the past few months, I've been experiencing chest pain and shortness of breath, especially during physical activity. At first, I brushed it off as being out of shape, but the symptoms persisted and worsened. After undergoing several tests, my doctor diagnosed me with angina, a condition caused by reduced blood flow to the heart. I was prescribed medication to manage the symptoms and advised to make lifestyle changes, including a healthier diet and regular exercise.","Medication, lifestyle changes",NY,54,Male,TRUE
-"Fever, body aches, fatigue",Influenza,2,"I thought it was just a common cold, but the fever, body aches, and fatigue lingered for over a week. I finally went to see my doctor, who diagnosed me with the flu. Although unpleasant, the symptoms were manageable with rest, fluids, and over-the-counter medication. After about two weeks, I fully recovered and returned to my normal routine.","Rest, fluids, over-the-counter medication",TX,28,Nonbinary,FALSE
-"Persistent cough, wheezing",Asthma,4,"For years, I've struggled with a persistent cough and wheezing, especially during physical activity or when exposed to certain triggers like dust or smoke. After numerous visits to the doctor and various tests, I was diagnosed with asthma. While it's a chronic condition, with the right treatment plan, including an inhaler and avoiding triggers, I've been able to manage my symptoms and maintain an active lifestyle.","Inhaler, trigger avoidance",FL,41,Female,TRUE
+How do you feel about AI?,Sentiment,Gender,Age,Area,City
+It's really cool. I loooooooooooooooooove it.,1,male,18 - 24,New York,Brooklyn
+I think a I is good and I think a I will run the world one day,1,male,35 - 44,Georgia,Atlanta
+It is Genius I enjoy the use.useful with school work and any unexplained questions and problems,1,female,35 - 44,Nevada,Las Vegas
+Powerful but scary but can change the world for the positive because it is so innovative and can help people accomplish so much it is very important and powerful,3,female,35 - 44,New York,Brooklyn
+"I love how helpful AI is.It can do so mucj great but we need to pass UBI for every American. Universal basic income. Itlf we have UBInthen AI is the greatest. If not, we are in trouble.",3,male,35 - 44,Ohio,Oberlin
+its our future and we have to use everywhere asap,1,male,> 54,New York,New Hyde Park
+I feel it will help us to be more efficient as humans,1,female,35 - 44,Mississippi,Biloxi
+I think it is important and innovative and will be included in most technologies.,1,male,25 - 34,California,Santa Ana
+I  have Neutral feelings about A I I do not trust it at all,2,female,> 54,New York,Queens
+I feel great they are one of a kind and good to help,1,male,35 - 44,Illinois,Elwood
+I feel like I do not know enough about it to form an accurate opinion.,4,female,35 - 44,Kentucky,Mayfield
+I really don't understand the entire concept of AI. I am waiting to see if is useful to my needs.,4,female,> 54,California,Porterville
+I feel good about al is so much better benefit,1,male,35 - 44,Tennessee,Munford
+It is Necessary to evolve business and education,1,female,35 - 44,Massachusetts,Boston
+Just getting used to the benefits.  Hope it causes more good than harm,3,female,45 - 54,Wisconsin,Milwaukee
+I am not comfortable with AI and I am not sure I know much about it.,4,female,35 - 44,California,Santa Maria
+AI is prominent in the workforce and technological aspect.,1,female,35 - 44,Arizona,Chandler
+I am kind of concerned about the safety concerns in relations to AI,2,female,35 - 44,Maryland,Silver Spring
+It should only be used as a tool and for the more monotonous draining jobs,3,female,25 - 34,Alabama,Semmes
+Nothing strong either way but it might be the end of humanity,3,female,25 - 34,West Virginia,Beckley
+Leaning towards not good. Feel like it's gonna be bad.,2,female,> 54,Michigan,Rockford
+I feel it is a bad thing.  It is going to make it sometimes extremely hard to decipher what is real and what is fake.,2,male,35 - 44,Indiana,Indianapolis
+I feel like its taking out the creativity of alot of things but is also very useful.,3,male,35 - 44,Nevada,Las Vegas
+I thing it's genius and recently starting using it at work and I believe it's on its way up,1,female,35 - 44,Hawaii,Kīhei
+Great helps with alot of things technology research,1,female,45 - 54,Florida,Orlando
+i feel good about ai so like yeah and i love it so much,1,female,25 - 34,New York,Brentwood
+"I see it everywhere and I don't like it, it doesn't need to be involved everything",2,female,18 - 24,California,Hemet
+I think it can be both helpful and hurtful to different industries.,3,female,45 - 54,Texas,Houston
+I love to be the best and love be me and love the rest.,5,male,25 - 34,Texas,Houston
+I think it's really good for helping people learn new things,1,female,> 54,Michigan,Clarkston
+I do not like it and I do not trust it and I do not use it.,2,male,> 54,Maryland,Gaithersburg
+I feel kinda good because it can help u do sum stuff that u can't do and u can learn alot from it,1,male,16 - 17,New York,Staten Island
+i think its awesome but weird at the same time,3,female,18 - 24,New Jersey,Ridgefield Park
+"I use it sometimes, I like it after ut took a minute to get use to it",1,male,45 - 54,Wisconsin,Viroqua
+I don't know anything about it and it makes me nervous,2,female,> 54,Pennsylvania,Feasterville
+I feel like it's overrated and hasn't shown much,2,male,18 - 24,Nevada,Las Vegas
+"I love it, it helps me when i'm writing papers for assignments.",1,female,18 - 24,Georgia,Atlanta
+I think it can help with tasks humans don't need to do,1,male,35 - 44,Virginia,Charlottesville
+I don't approve of it. I don't feel as though it is needed nor necessary,2,male,35 - 44,Pennsylvania,Philadelphia
+It'll help the human race a lot better. It allows from work personalized advertisement and customizations of our ads that we see in our day-to-day lives,1,male,25 - 34,North Carolina,Charlotte
+I am excited for the development and how it will be incorporated into our everyday lives,1,male,45 - 54,California,Los Angeles
+"I think it can help a lot, but has the potential for mususe",3,female,> 54,Alabama,Hamilton
+"It's scary as hell, it's too realistic and too smart",2,male,25 - 34,Missouri,Kansas City
+I absolutely hate it and I think it's a horrible idea,2,female,25 - 34,Tennessee,Nashville
+It is scary and going to cause many negatives affects,2,female,> 54,Florida,Longwood
+It sucks and it is frightening because it will be abused,2,male,> 54,Ohio,Columbus
+Al has it's benefits and it's problems but overall I think Al is a good thing and here to stay,3,female,> 54,Texas,Unknown
+Its a good creation for the world to see and hear from you and your family and friends and cdr,5,male,25 - 34,Tennessee,Memphis
+"I am very skeptical of AI%3B I do feel that in some cases it can help, but I fear the dangers  of it too much",3,female,35 - 44,Tennessee,Morristown
+i like how technologically advanced it is as it makes performing tasks easier,1,female,25 - 34,Texas,San Antonio
+I feel like it is a useful technology for useful information.,1,male,35 - 44,Nevada,Henderson
+"It is a scary, but exciting new technology and tool. I believe it should be regulated more and tided with caution.",3,male,25 - 34,Texas,Houston
+I feel I have a eye is great and it's perfect,5,male,35 - 44,California,San Bernardino
+I don't think the benefits of it outweigh the risks,2,female,35 - 44,Michigan,Alpena
+It is a great advancement in technology that helps humans,1,male,25 - 34,Iowa,Sioux City
+I do not trust it in general but I am willing to learn more about it.,4,male,> 54,Florida,Spring Hill
+I think it is a very dangerous technology. I think that it could be used for good but the current world rulers seem to not want that.,2,male,35 - 44,Ohio,Xenia
+AI is interesting in the fact that it can help with alot of different aspects but also van be used for bad,3,male,35 - 44,California,Carson
+I am a little concerned about the future of employment because of AI,2,female,35 - 44,Virginia,Henrico
+scared and worried that no one is regulating it.,2,female,35 - 44,Ohio,Rocky River
+It helps with everything you need on your device,1,male,25 - 34,California,San Francisco
+I have mixed feelings about it whether it's gonna help or harm us,3,female,> 54,Ohio,Lima
+I feel likw AI is a great investment. It helps us do so much stuff easier in the world,1,female,18 - 24,North Carolina,Charlotte
+I feel there are advantages and disadvantages to using it.,3,female,> 54,California,San Francisco
+curious and excited about what it night accomplish,1,male,> 54,New Jersey,West Orange
+I think AI is good to an extent. I don't completely agree with everything they are intending AI for.,3,female,35 - 44,Virginia,Chilhowie
+Very nice and helpful for many and graceful work i really like so much because it as help me and my family a lot,1,male,35 - 44,Georgia,Ludowici
+So I don't know it's kind of scary. It is not real and I don't understand how it works like cryptocurrency.,2,male,45 - 54,California,Chico
+I have no  strong feelings about it because I had not ever used it before,4,female,25 - 34,Louisiana,Unknown
+It's a new wave of technology that's going to change the future,1,male,35 - 44,Georgia,Hinesville
+I love AI they are amazing and is the future will support them,1,male,35 - 44,Illinois,South Holland
+I think it's taking away jobs. Many people will lose jobs,2,male,25 - 34,Illinois,Chicago
+Scary thought but it helps us alot im just scared they can take over humans,3,male,35 - 44,California,Oakland
+I think it is overrated and could become dangerous,2,male,45 - 54,Virginia,Roanoke
+I think it is amazing and always coming up with new and improved things to do,1,female,45 - 54,Ohio,Dayton
+I'm not really all that familiar with it. It's on my snapchat but I don't use it.,4,female,35 - 44,Indiana,Washington
+I think A I could be useful for the right reasons and in the right setting,1,male,45 - 54,New York,The Bronx
+im indifferent and i don't know if i can trust it,4,male,> 54,California,Costa Mesa
+It's a great tools to use and it's very helpful to figure things out.,1,male,25 - 34,Illinois,Streamwood
+It could be both a good and bad thing. It could be  both helpful and hurtful.,3,female,> 54,Illinois,Aurora
+I feel it's a huge part of our future and we need to get used to it,1,male,35 - 44,Illinois,Peoria
+I'm not sure really what to think about it. It's something that is for sure.,4,female,> 54,Pennsylvania,Mercersburg
+Ai katuramin my daddy and you my love I will send me.,5,male,35 - 44,Wyoming,Afton
+I think it's cool but also a little scary but it seems very helpful,3,female,45 - 54,Pennsylvania,Philadelphia
+"I don't like it at all, it's scary and unnecessary.",2,female,25 - 34,Oklahoma,Tulsa
+I don't feel anything about AI cuz I don't really know anything about it,4,female,45 - 54,Illinois,Chicago
+I hate it because it's taking over people's jobs to support their families.,2,female,35 - 44,Illinois,Lake in the Hills
+I hate it because it scares me. They are trying to replace humans,2,female,45 - 54,North Carolina,Wilson
+"It is fascinating & potentially useful, but a very scary concept if used the wrong way.",3,female,35 - 44,New York,Buffalo
+AI is an ok system to have I guess I just don't use it at the moment,4,female,35 - 44,Georgia,Marietta
+Great technology better for the future of us and the rest of the world,1,female,> 54,Florida,Orlando
+"I thinks it's  very helpful, at times it can kind of be invasive",3,female,45 - 54,Washington,Seattle
+I don't like the idea of AI taking over humans,2,male,35 - 44,Illinois,Melrose Park
+I feel uneasy about AI. I am not sure if it is a good thing or a bad thing.,4,female,> 54,Tennessee,Memphis
+I don't know what I think about this one but I'm definitely thinking about this and I'm going to try to make it work,4,male,> 54,Florida,Orlando
+I'm not aware of AI so I can not answer I can not answer this question,4,male,25 - 34,Texas,Austin
+"I think AI has its benefits and downfalls. When it's riding writers of jobs, I'm against it.",3,female,25 - 34,Virginia,Reston
+There will be pros and cons with it. It will definitely make certain things easier.,3,male,25 - 34,Texas,San Antonio
+I personally don't feel bad AI it's going to beneficial in the long run,1,female,25 - 34,Alabama,Selma
+Love it. It's going to make life so much easier,1,male,35 - 44,Missouri,Unknown
+I don't know  much about it but  interesting in learning about it,4,female,> 54,Missouri,Republic
+It seems very interesting and I might be interested,4,male,25 - 34,Ohio,Columbus
+Unsure about how much it will help people in the long run,4,male,> 54,Florida,Okeechobee
+I feel that it is Innovative and creative and it can make our lives easy,1,female,35 - 44,Texas,Killeen
+Nothing really don't know much about it need to learn more about it I guess it's the new thing,4,female,> 54,Unknown,Unknown
+An common quality variety of options for tech support,5,male,25 - 34,Texas,Houston
+I really think AI can bring a great use case for many professions.,1,male,35 - 44,Missouri,Fenton
+I'm not sure about AI. All I know is that I don't know what it is,4,female,45 - 54,New York,New York
+I like the idea of it but it scares me. I feel like it will help in a lot of different ways.,3,female,25 - 34,Kentucky,Hopkinsville
+I have concerns about privacy and data security,2,male,> 54,Pennsylvania,Perkasie
+It's very very helpful yet at the same time very scary.,3,female,35 - 44,Utah,Roosevelt
+scared of ai because humans will make it too powerful and weponize it,2,male,35 - 44,Kansas,Leavenworth
+The first time I was on a phone call Me back to the grocery store and,5,male,35 - 44,Ohio,Columbus
+Positive and hope that it becomes more universal.,1,male,25 - 34,Arizona,Tucson
+"Al i like depending on what aspect, some of it is useful",3,female,35 - 44,Florida,Miami
+"I think it has benefits, as well, I have concerns.",3,male,35 - 44,Pennsylvania,Philadelphia
+"I love it, I like how it is personally ai is just great",1,male,18 - 24,North Carolina,Winterville
+I feel great about Al it's a great company . And very helpful,1,female,25 - 34,Tennessee,Knoxville
+It terrifys me if I'm going to be truthful.  I think it will be the death of the human race.,2,female,45 - 54,Missouri,Kansas City
+It's us ok do not know much about it but heard of it,4,female,> 54,North Carolina,Charlotte
+I really do not like AI as I'm worried it's able to do too many things better than msn can and there will be job loses.,2,female,> 54,New York,Shirley
+Positive feelings in general. That's my overall feelings,1,male,45 - 54,Pennsylvania,Pittsburgh
+It's amazing you can do so many things while it being useful and responsive,1,male,18 - 24,Texas,Laredo
+Irritating. Bring back a regular search bar. I would have have a person to speak to,5,female,45 - 54,Alabama,Jacksonville
+Like it a lot and will use it for sakes now and in the future,1,male,> 54,New Jersey,Sussex
+I don't trust AI. I feel it will eliminate jobs.,2,male,45 - 54,Ohio,Dayton
+I haven't had much experience with it but I can see the benefits but also the dislike that people have for it.,3,female,25 - 34,North Dakota,Minot
+"It is very useful to today's modern world, with little concerns. The only concern is its smartness to be dangerous, other than that it helps everyone in the world.",3,male,18 - 24,Texas,Houston
+"No strong feelings at this present time, in a wait and see mode.",4,female,> 54,Michigan,Detroit
+"I like it, even as I have questions about it.  We need to figure out how to use it in an ethical way in various settings.",3,female,> 54,Massachusetts,West Roxbury
+I love it it helps us greatly in our everyday lives,1,female,35 - 44,New York,New York
+I don't even know what that is! I have never heard of it before!,4,female,45 - 54,Arkansas,Jonesboro
+I feel like AI is an innovative tool that will increase productivity and streamline workflow,1,female,35 - 44,Georgia,Atlanta
+I'm still suspicious about it. I feel like it's a technology that has been known about for a few decades. Consider The Transformers. That to me is what AI is. And soon to come.,2,female,45 - 54,Texas,Conroe
+How to feel about AL? Al is interesting and curiously technical.,5,male,35 - 44,New Jersey,Newark
+It stands for artificial intelligence and technology,5,male,18 - 24,Florida,Miami
+Good because it's the Best for me and my family love it,1,male,35 - 44,Texas,Fort Worth
+I am torn. I don't think that it is good for our youth to rely on it. But I also feel that technological advancement is aided with AI.,3,female,> 54,Florida,Palm Beach Gardens
+It is a very good thing that was made for the economy,1,male,18 - 24,Florida,Tampa
+Not sure I have mixed feelings about it it's good and bad,3,male,45 - 54,Ohio,Unknown
+Will have a positive impact on society in the future,1,male,45 - 54,Ohio,Mogadore
+has good and bad things to say about it and is leasing the way in technology,3,male,45 - 54,New York,Fulton
+It's okay it could be better since people are getting smarter,3,male,25 - 34,Tennessee,Kingsport
+It's the future industry to rule all industries for mankind.,1,male,35 - 44,Arizona,Phoenix
+It should be monitored but can be useful. AI can help people in many ways but could be dangerous if not properly handled.,3,female,16 - 17,Alabama,Alabaster
+I am not sure. I have not heard enough about it.,4,female,> 54,New York,Newark
+I like it and I believe it will advance even fir,1,female,> 54,Ohio,Cleveland
+I love AI it's has upgraded a lot of systems which has made a lot of things easier than they were before,1,female,18 - 24,Georgia,Hampton
+It's okay I guess like the voice ones okay like Google,3,female,25 - 34,North Carolina,Greenville
+It's going to be very useful and helpful and completely change the computer industry,1,male,> 54,New Jersey,Carteret
+I think it's helpful but a little creepy. I feel like things like Alexa spy on you.,3,female,35 - 44,Ohio,Chardon
+"Both excited and apprehensive. I can see the benefits it could bring to every day life but I also see the very real issues we could end up with, for example data and privacy concerns or AI doing what it wants or teaching itself without human knowledge of it doing so.",3,female,35 - 44,Pennsylvania,Pottstown
+I am totally undecided about AI. I guess it is the fire of social media.,4,female,45 - 54,Illinois,Chicago
+It has its uses but it must be closely monitored,3,female,> 54,Georgia,Fayetteville
+I'm beginning to like it. I was a little skeptical about but it's actually awesome,1,male,45 - 54,Florida,Jacksonville
+I feel we are on there brink of AGI and incredible abundance,1,male,25 - 34,California,Westminster
+In the middle. Kind of concerned because of how life like it is,3,female,25 - 34,South Carolina,Aiken
+"I don't know too much about AI, but I am willing to learn more about it and how it works.",4,female,45 - 54,Georgia,Lithonia
+very cautious about accepting this technology,2,male,> 54,Georgia,Winder
+Not good it's not how people should learn it makes people lazy and not work hard,2,male,35 - 44,New York,Staten Island
+It is going to take over all of the jobs and unemployment will continue to rise.,2,female,25 - 34,North Carolina,Charlotte
+It's okay I like it quite a bit it can be very helpful,1,male,25 - 34,New York,The Bronx
+I feel like AI is the future and it can soon take over the world and take the jobs of many citizens.,2,male,18 - 24,Michigan,Detroit
+It's going to make everyone's life so much easier and change the computer industry,1,male,> 54,New Jersey,Carteret
+It's actually quite scary and I don't think the world is ready for it,2,female,35 - 44,Texas,Houston
+Feel good about it. It can enhance our experience to all kinds of technology,1,female,> 54,Pennsylvania,Camp Hill
+I think it's helpful but also intrusive. I think there are strengths and also weaknesses.,3,female,35 - 44,South Carolina,Elloree
+"advanced technology quick solutions, combination of algorithms proposed with the purpose    of creating machines tht have the same capabilities as humans",5,male,45 - 54,Florida,Hollywood
+I don't know what to think about al. It a game change,4,male,45 - 54,Pennsylvania,Lancaster
+I'm cautious and optimistic at the same time.,3,female,35 - 44,Georgia,Unknown
+Don't care to much but would like to learn about it,4,female,45 - 54,Maryland,Germantown
+I feel like I'm kinda scared when we allow it take over the world,2,male,45 - 54,Ohio,Columbus
+"Can be useful, but can also be dangerous. It can be used to build dat models and code%3B but can also be used for deep fakes and fraudulent activity",3,male,45 - 54,Texas,New Braunfels
+I appreciate the concept of the content provided by the company services and services,5,female,45 - 54,Wisconsin,Milwaukee
+I don't really understand how AI works so I'm confused about it,4,female,45 - 54,Arizona,Gilbert
+I dont see how it is really going to help us all..,2,female,> 54,Texas,San Antonio
+I think it will be good thing. That it will have both pros and cons so bad points just have to correct or leave out.,3,female,> 54,Missouri,St Louis
+Ai is a little creepy. And I don't really like it.,2,female,35 - 44,Louisiana,Denham Springs
+It's ok I guess . I'm really not sure. We will see what happens,4,male,35 - 44,North Carolina,Winston-Salem
+I don't trust it. I don't know enough about it or know how to control it.,2,male,> 54,Florida,Orlando
+I absolutely abhor the idea of ai and all it stands for. It should have never been created and the only people it's helping is the people getting rich off of it,2,male,18 - 24,New York,Brooklyn
+I think caution should be taken in its development,2,female,> 54,Pennsylvania,Philadelphia
+No real comments this sure has been a lot of hype about it I'm not quite sure if it's going to be a good or bad in regards to Medicine I think it will be helpful,3,male,> 54,Minnesota,Maple Grove
+I don't like it and don't know to much about it,2,female,35 - 44,Illinois,McHenry
+It is ok. I like the ability for it to answer questions based on previous data. I didn't like the future that might happen relating to ai,3,male,35 - 44,Illinois,Freeport
+I'm not that thrilled with AI I mean it can help us in many ways but I fear it's taken over. Having people do certain things,3,female,> 54,New York,Merrick
+Worried because it's taking away jobs and it's taking away human creativity.,2,female,35 - 44,Michigan,Dearborn Heights
+I think it's a good app that helps everyone with something.,1,female,25 - 34,Missouri,Springfield
+It ok just don't trust it like everyone else but we will see,4,male,35 - 44,Illinois,Dolton
+AI is helpful but be careful when you use it.,3,female,> 54,Tennessee,Collierville
+It's useful when used correctly. Sometimes It's better to do it manually without the help of smart features.,3,female,35 - 44,New York,Niagara Falls
+"Think it's helpful n easy to use, accessible n lots of ways to use",1,female,> 54,South Carolina,North Augusta
+I think it can be great but I have a lot of concerns.  It is already being misused.,3,male,> 54,North Carolina,Charlotte
+It seems cool to have a bit of help of someone who isn't real yet they know a lot since it's a robot,1,female,18 - 24,Texas,Spring
+I really think it's great and very innovative,1,female,45 - 54,Arizona,Phoenix
+I honestly done understand it all. I don't think it's a good thing!,2,female,> 54,Florida,Palm Coast
+Can be helpful at times but other times misleading.,3,female,35 - 44,Washington,Bothell
+"It's new, I'm not too sure about AI or what it can do yet",4,female,35 - 44,New Jersey,Laurelton
+"I'm very open to AI, I think it will be interesting to watch how it matures over time",1,male,> 54,Kentucky,Barbourville
+It's useful and entertaining I think. It's fun to use them.,1,female,25 - 34,Michigan,Madison Heights

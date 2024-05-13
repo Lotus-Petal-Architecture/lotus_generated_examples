@@ -22,7 +22,7 @@ def sortframe(sortcol):
 
 
 
-sortcol = (list_of_column_names[2])
+sortcol = (list_of_column_names[0])
 print (sortcol)
 sortframe(sortcol)
 
@@ -110,7 +110,7 @@ f2.write('var rowcount = ' + rows)
 f2.write("\n")
 
 f2.write("\n")
-f2.write('var filter1 = col_I')  #this will eventually be replaced by variable selected by user
+f2.write('var filter1 = col_B')  #this will eventually be replaced by variable selected by user
 f2.write("\n")
 
 f2.write("\n")

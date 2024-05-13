@@ -8,7 +8,7 @@ var r = 100,
   var scene = new THREE.Scene()
 
   var camera = new THREE.PerspectiveCamera(  
-    7.7, // This variable controls size -- the lower the value the larger the rendering. Original value was 27.
+    7.5, // This variable controls size -- the lower the value the larger the rendering. Original value was 27.
     window.innerWidth / window.innerHeight,
     0.1,
     1000

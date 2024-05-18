@@ -525,8 +525,8 @@ for (i = 0; i < link_order_length; i++) {
       + '<br><b>' + label_B + '</b>: ' + ' ' + col_B[l] + '&nbsp; &nbsp;'
       + '<br><b>' + label_C + '</b>: ' + col_C[l] + ' '
       //+ '<br><b>' + label_G + ':</b> ' + '$' + col_G[l] + '&nbsp; &nbsp;'
-      + '<b>' + label_D + ':</b> ' + ' ' + col_D[l]  + '&nbsp; &nbsp;' +  
-      '<br><b>' + label_E + ':</b> ' + col_E[l]  +'&nbsp; &nbsp;' + '<b>' //+ label_F + ':</b> ' + '$'  + col_F[l] 
+      + '<b>' + label_D + ':</b> ' + ' ' + col_D[l] + ' %'  + '&nbsp; &nbsp;' +  
+      '<br><b>' + label_E + ':</b> ' + col_E[l] + ' %' +'&nbsp; &nbsp;' + '<b>' //+ label_F + ':</b> ' + '$'  + col_F[l] 
             }
 
  function datestamp (date,time) {
@@ -546,7 +546,7 @@ datestamp(date,time);
 
   document.addEventListener('mousemove', onDocumentMouseMove, false)
   window.addEventListener('click', onMouseClick, false)
-  window.addEventListener('resize', onWindowResize, false)
+  //window.addEventListener('resize', onWindowResize, false)
   
   function onDocumentMouseMove (event) {
     event.preventDefault()

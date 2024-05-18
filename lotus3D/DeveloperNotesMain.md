@@ -2,7 +2,7 @@ Right now what we have is a somewhat cleaner but still not entirely automated wa
 
 <a href="https://github.com/tessgadwa/lotus3D/blob/main/lotus3D/screenshots/CPI_example.png">This</a> is roughly what a working Lotus Chart should look like.
 
-Several sample data sources are included -- however, not all bug fixes and filter changes have been added to the older code, so if you want to recreate the data views it's easiest to just to just build using the most current source.
+Several sample data files are included -- however, not all bug fixes and filter changes have been added to the older code, so if you want to recreate the data views it's easiest to just to just build using the most current source. 
 
 All health information contained in this repository is fiction (generated). No PHI (**Personal Health Information**) is used.
 

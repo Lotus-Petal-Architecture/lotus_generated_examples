@@ -382,7 +382,7 @@ function getActiveLinks()  //sorts for a given set of values from the data obtai
       console.log(answer_index);
       console.log(answer_value);
 
-      if (answer_value == "True") {  // trend can also be specified as a variable in index.html [uptrend]
+      if (answer_value == 1) {  // trend can also be specified as a variable in index.html [uptrend]
         
         active_links.push(answer_index);
       }
@@ -533,7 +533,7 @@ for (i = 0; i < link_order_length; i++) {
       }
 
 
-datestamp(date,time);
+//datestamp(date,time);
 
 
   // --- raycaster code

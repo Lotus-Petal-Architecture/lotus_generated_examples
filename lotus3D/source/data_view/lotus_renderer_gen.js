@@ -600,7 +600,7 @@ for (i = 0; i < link_order_length; i++) {
       }
 
 
-datestamp(date,time);
+//datestamp(date,time);
 
 
   // --- raycaster code

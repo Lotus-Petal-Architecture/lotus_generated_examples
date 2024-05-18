@@ -43,7 +43,7 @@ TO DO:
 
 - Need better logic to establish filter criteria.
 
-- KNOWN ISSUE: Screen goes to black when visualization is resized on some computers. (This has been fixed, but not on all views.)
+- KNOWN ISSUE: Screen goes to black when visualization is resized on some computers. Disabling the resize event listener fixes this, but can cause other unexpected behavior at smaller screen sizes. Need to test thoroughly across browsers, add more media queries.
 
 
 DATA NOTES:

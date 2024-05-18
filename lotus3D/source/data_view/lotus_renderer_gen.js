@@ -681,7 +681,7 @@ datestamp(date,time);
     camera.aspect = window.innerWidth / window.innerHeight
     camera.updateProjectionMatrix()
     renderer.setSize(window.innerWidth, window.innerHeight)
-  }  //this function appears to no longer be working and causes the screen to black out. has been commented out.
+  }
 
   //animate and render
 

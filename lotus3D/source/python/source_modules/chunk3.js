@@ -546,7 +546,7 @@ datestamp(date,time);
 
   document.addEventListener('mousemove', onDocumentMouseMove, false)
   window.addEventListener('click', onMouseClick, false)
-  window.addEventListener('resize', onWindowResize, false)
+  //window.addEventListener('resize', onWindowResize, false)
   
   function onDocumentMouseMove (event) {
     event.preventDefault()

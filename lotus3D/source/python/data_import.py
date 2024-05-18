@@ -113,9 +113,9 @@ f2.write("\n")
 f2.write('var filter1 = col_B')  #this will eventually be replaced by variable selected by user
 f2.write("\n")
 
-f2.write("\n")
-f2.write('var filter2 = col_E')  #this will eventually be replaced by variable selected by user
-f2.write("\n")
+# f2.write("\n")
+# f2.write('var filter2 = col_E')  #this will eventually be replaced by variable selected by user
+# f2.write("\n")
 f2.write("\n")
 
 f2.close()

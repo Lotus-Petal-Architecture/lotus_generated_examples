@@ -1,5 +1,7 @@
 import data_import
 
+new=data_import
+
 # assembles Lotus Renderer js
 
 # open copy of lotus renderer source code to insert array values

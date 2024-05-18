@@ -373,7 +373,7 @@ function getActiveLinks()  //sorts for a given set of values from the data obtai
 {
 
     var f = filter1.entries();
-    var g = filter2.entries();
+    //var g = filter2.entries();
 
     for (x of f) {
       var answer =x;
@@ -523,11 +523,7 @@ for (i = 0; i < link_order_length; i++) {
          document.getElementById('nowplaying').innerHTML =
       '<br><br><b>' + label_A +'</b>: ' + col_A[l] + '&nbsp; &nbsp;'  
       + '<br><b>' + label_B + '</b>: ' + ' ' + col_B[l] + '&nbsp; &nbsp;'
-      + '<br><b>' + label_C + '</b>: ' + col_C[l] + ' '
-      //+ '<br><b>' + label_G + ':</b> ' + '$' + col_G[l] + '&nbsp; &nbsp;'
-      + '<b>' + label_D + ':</b> ' + ' ' + col_D[l] + ' %'  + '&nbsp; &nbsp;' +  
-      '<br><b>' + label_E + ':</b> ' + col_E[l] + ' %' +'&nbsp; &nbsp;' + '<b>' //+ label_F + ':</b> ' + '$'  + col_F[l] 
-            }
+       }
 
  function datestamp (date,time) {
   document.getElementById('datestamp').innerHTML =

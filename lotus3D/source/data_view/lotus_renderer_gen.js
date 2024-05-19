@@ -510,7 +510,7 @@ for (i = 0; i < link_order_length; i++) {
     if (active_links.includes(i)) {
 
       var k = link_order[i];
-      var color_code = 0xbd4840; 
+      var color_code = 0x00A86B; 
 
       visibleSpaghetti(
         k,

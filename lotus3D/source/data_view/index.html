@@ -5,10 +5,28 @@
 		<meta charset=utf-8>
 		<title>Lotus Chart</title>
 		<link rel="stylesheet" href="css/styles.css" />
+
+	<script type="text/javascript">
+
+	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+ 		window.location.replace("https://web.lotus.fm/mobile");
+	}
+	</script>
+	
 	
 	</head>
 	
 	<body>
+			<div id ="alternate"> This content is not yet available for mobile devices. Responsive and assistive versions coming soon. 
+			<br><br><a style="" href="https://web.lotus.fm/mobile" target="self" onclick="openURL()">Proceed to mobile-friendly site</a>.
+		<script>
+			function openURL() {
+ 			 window.open("https://web.lotus.fm/mobile", "_self");
+			}
+		</script></div>
+			<noscript><div id ="alternate" style="display: block;"> Javascript not enabled! Please enable Javascript on your browser to view interactive content.
+			<br><br><a href="https://web.lotus.fm" target="self">Proceed to main Lotus.fm site</a>.</div>
+		<div id="main" style="display: none;"></noscript>
 			<div id="main">
 						<div id="info">Perceptions of AI</div>
 		<div id="nowplaying"><br><br><br><br></div>

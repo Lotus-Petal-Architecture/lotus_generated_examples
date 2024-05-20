@@ -373,7 +373,7 @@ function getActiveLinks()  //sorts for a given set of values from the data obtai
 {
 
     var f = filter1.entries();
-    //var g = filter2.entries();
+    var g = filter2.entries();
 
     for (x of f) {
       var answer =x;
@@ -382,7 +382,7 @@ function getActiveLinks()  //sorts for a given set of values from the data obtai
       console.log(answer_index);
       console.log(answer_value);
 
-      if (answer_value == 2) {  // trend can also be specified as a variable in index.html [uptrend]
+      if (answer_value == "True") {  // trend can also be specified as a variable in index.html [uptrend]
         
         active_links.push(answer_index);
       }
@@ -443,7 +443,7 @@ for (i = 0; i < link_order_length; i++) {
     if (active_links.includes(i)) {
 
       var k = link_order[i];
-      var color_code = 0x00A86B; 
+      var color_code = 0xbd4840; 
 
       visibleSpaghetti(
         k,
@@ -523,7 +523,11 @@ for (i = 0; i < link_order_length; i++) {
          document.getElementById('nowplaying').innerHTML =
       '<br><br><b>' + label_A +'</b>: ' + col_A[l] + '&nbsp; &nbsp;'  
       + '<br><b>' + label_B + '</b>: ' + ' ' + col_B[l] + '&nbsp; &nbsp;'
-       }
+      + '<br><b>' + label_C + '</b>: ' + col_C[l] + ' '
+      //+ '<br><b>' + label_G + ':</b> ' + '$' + col_G[l] + '&nbsp; &nbsp;'
+      + '<b>' + label_D + ':</b> ' + ' ' + col_D[l] + ' %'  + '&nbsp; &nbsp;' +  
+      '<br><b>' + label_E + ':</b> ' + col_E[l] + ' %' +'&nbsp; &nbsp;' + '<b>' //+ label_F + ':</b> ' + '$'  + col_F[l] 
+            }
 
  function datestamp (date,time) {
   document.getElementById('datestamp').innerHTML =
@@ -533,7 +537,7 @@ for (i = 0; i < link_order_length; i++) {
       }
 
 
-//datestamp(date,time);
+datestamp(date,time);
 
 
   // --- raycaster code
@@ -542,7 +546,7 @@ for (i = 0; i < link_order_length; i++) {
 
   document.addEventListener('mousemove', onDocumentMouseMove, false)
   window.addEventListener('click', onMouseClick, false)
-  //window.addEventListener('resize', onWindowResize, false)
+  window.addEventListener('resize', onWindowResize, false)
   
   function onDocumentMouseMove (event) {
     event.preventDefault()

@@ -19,6 +19,8 @@ TO DO:
 
 - Import from JSON.
 
+- Restore mobile detect script.
+
 - Automatic generation of thumbnail images.
 
 - index.html should be dynamically generated.
@@ -43,7 +45,8 @@ TO DO:
 
 - Need better logic to establish filter criteria.
 
-- KNOWN ISSUE: Screen goes to black when visualization is resized on some computers. Disabling the resize event listener fixes this, but can cause other unexpected behavior at smaller screen sizes. Need to test thoroughly across browsers, add more media queries.
+- KNOWN ISSUE: Screen goes to black when visualization is resized on some computers. Disabling the resize event listener fixes this, but can cause unexpected behavior at smaller screen sizes. Need to test thoroughly across browsers, add more media queries.
+
 
 
 DATA NOTES:

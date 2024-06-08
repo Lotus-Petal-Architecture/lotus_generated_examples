@@ -19,8 +19,6 @@ TO DO:
 
 - Import from JSON.
 
-- Restore mobile detect script.
-
 - Automatic generation of thumbnail images.
 
 - index.html should be dynamically generated.

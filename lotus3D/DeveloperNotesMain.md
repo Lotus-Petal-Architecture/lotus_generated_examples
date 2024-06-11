@@ -1,6 +1,10 @@
-Right now what we have is a somewhat cleaner but still not entirely automated way to import data from a local CSV file into a new Lotus Chart. 
+Right now what we have is a somewhat cleaner but still not entirely automated way to import data from a local CSV file into a new Lotus Chart.
 
-I am leaving the February 2024 CPI data as sample data. The <a href="https://github.com/tessgadwa/lotus3D/blob/main/lotus3D/screenshots/CPI_example.png">resulting 3D visualization</a> is saved in the folder at lotus3D/source/data_view/index.html. Screenshot: lotus3D/screenshots/CPI_example.png
+<a href="https://github.com/tessgadwa/lotus3D/blob/main/lotus3D/screenshots/CPI_example.png">This</a> is roughly what a working Lotus Chart should look like.
+
+Several sample data files are included -- however, not all bug fixes and filter changes have been added to the older code, so if you want to recreate the data views it's easiest to just to just build using the most current source. 
+
+All health information contained in this repository is fiction (generated). No PHI (**Personal Health Information**) is used.
 
 I would estimate the time to massage and prep a new spreadsheet file to work with the current Python generator script at 1-2 hours. If you try it out with a new CSV, you would need to modify the filter logic [getActiveLinks] in the js modules in order to get the chart to render correctly. Links are also currently disabled on the chart lines, because there are no custom URLs available for this dataset.
 
@@ -12,6 +16,8 @@ If you have an idea for how to use this functionality (whether static or dynamic
 TO DO:
 
 - Text search.
+
+- Import from JSON.
 
 - Automatic generation of thumbnail images.
 
@@ -31,13 +37,14 @@ TO DO:
 
 - Generate multiple pages of Lotus Charts (when spreadsheets contain > 2000 rows).
 
-- Import from JSON.
-
 - Option to use original chart format for records sets < 500 rows (this has lower performance, but visually it is a little more slick and provides greater flexibility with filters).
 
 - Filter by set.
 
 - Need better logic to establish filter criteria.
+
+- KNOWN ISSUE: Screen goes to black when visualization is resized on some computers. Disabling the resize event listener fixes this, but can cause unexpected behavior at smaller screen sizes. Need to test thoroughly across browsers, add more media queries.
+
 
 
 DATA NOTES:

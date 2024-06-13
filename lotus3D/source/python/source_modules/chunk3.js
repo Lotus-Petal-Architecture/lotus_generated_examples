@@ -543,7 +543,6 @@ datestamp(date,time);
 
   document.addEventListener('mousemove', onDocumentMouseMove, false)
   window.addEventListener('click', onMouseClick, false)
-  //window.addEventListener('resize', onWindowResize, false)
   
   function onDocumentMouseMove (event) {
     event.preventDefault()
@@ -588,12 +587,6 @@ datestamp(date,time);
       //window.open(URL, '_blank')
     }
   }
-
-  function onWindowResize () {
-    camera.aspect = window.innerWidth / window.innerHeight
-    camera.updateProjectionMatrix()
-    renderer.setSize(window.innerWidth, window.innerHeight)
-  } //this function appears to no longer be working and causes the screen to black out. has been commented out.
 
   //animate and render
 

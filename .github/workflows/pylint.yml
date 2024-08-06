@@ -40,7 +40,6 @@ jobs:
             --disable=C0413 \
             --disable=W0611 \
             --disable=W0621 \
-            --load-plugins pylint_django \
             . || pylint-exit --error-fail $?
         # $(git ls-files '*.py')
         # W0621 is a non-trivial issue

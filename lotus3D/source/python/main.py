@@ -1,24 +1,18 @@
+
 import data_import
 
-new=data_import
+# Assemble Lotus Renderer JavaScript
+lotus_renderer_path = "../data_view/lotus_renderer_gen.js"
+source_modules = [
+    "source_modules/chunk1.js",
+    "source_modules/chunk2.js",
+    "source_modules/chunk3.js"
+]
 
-# assembles Lotus Renderer js
+# Open the Lotus Renderer source code file for writing
+with open(lotus_renderer_path, "w") as lrg:
+    # Write the contents of each source module to the Lotus Renderer file
+    for module_path in source_modules:
+        with open(module_path, "r") as module_file:
+            lrg.write(module_file.read())
 
-# open copy of lotus renderer source code to insert array values
-lrg = open("../data_view/lotus_renderer_gen.js", "w")
-f1 = open("source_modules/chunk1.js", "r")
-lrg.write(f1.read())
-f1.close()
-lrg.close()
-
-lrg = open("../data_view/lotus_renderer_gen.js", "a")
-
-f2 = open("source_modules/chunk2.js", "r")
-lrg.write(f2.read())
-f2.close()
-
-f3 = open("source_modules/chunk3.js", "r")
-lrg.write(f3.read())
-f3.close()
-
-lrg.close()

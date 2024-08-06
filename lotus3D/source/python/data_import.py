@@ -33,9 +33,9 @@ def sortframe(sortcol):
 sortedData = csv_data.to_csv(index=False)
 
 # write sorted data to new quotes file, sorted by column name defined above
-sortedQuotes = open("sorteddata.csv", "w")
-sortedQuotes.write(sortedData)
-sortedQuotes.close()
+with open("sorteddata.csv", "w") as sortedQuotes:
+    sortedQuotes.write(sortedData)
+
 
 csv_data = pd.read_csv("sorteddata.csv")
 

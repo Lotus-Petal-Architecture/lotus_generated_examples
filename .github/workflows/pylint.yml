@@ -42,6 +42,7 @@ jobs:
             --disable=W0621 \
             . || pylint-exit --error-fail $?
     - name: run default main py
+      timeout-minutes: 4
       working-directory: lotus3D/source/python
       run: |
         python main.py 

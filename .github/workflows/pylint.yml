@@ -41,5 +41,9 @@ jobs:
             --disable=W0611 \
             --disable=W0621 \
             . || pylint-exit --error-fail $?
+    - name: run default main py
+      working-directory: lotus3D/source/python
+      run: |
+        python 
         # $(git ls-files '*.py')
         # W0621 is a non-trivial issue

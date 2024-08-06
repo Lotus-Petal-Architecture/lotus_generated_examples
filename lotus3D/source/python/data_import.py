@@ -1,11 +1,11 @@
 # importing pandas package
-import pandas as pandasForSortingCSV
+import pandas as pd
 
 # assign dataset
-csvData = pandasForSortingCSV.read_csv('../data/data.csv')
+csv_data = pd.read_csv('../data/data.csv')
 
 # creating a list of column names by calling the .columns
-list_of_column_names = list(csvData.columns)
+list_of_column_names = list(csv_data.columns)
 column_count = len(list_of_column_names)
 
 #for item in list_of_column_names:
@@ -13,33 +13,33 @@ column_count = len(list_of_column_names)
 
 # displaying unsorted data frame
 print("\nBefore sorting:")
-print(csvData)
+print(csv_data)
 
 # sort data frame
 
 def sortframe(sortcol):
-    csvData.sort_values(sortcol,
+    csv_data.sort_values(sortcol,
                     axis=0,
                     ascending=[False],
                     inplace=True)
 
     print("\nAfter sorting:")
-    print(csvData)
+    print(csv_data)
 
 #sortcol = (list_of_column_names[0])
 #print (sortcol)
 #sortframe(sortcol)
 
-sortedData = csvData.to_csv(index=False)
+sortedData = csv_data.to_csv(index=False)
 
 # write sorted data to new quotes file, sorted by column name defined above
 sortedQuotes = open("sorteddata.csv", "w")
 sortedQuotes.write(sortedData)
 sortedQuotes.close()
 
-csvData = pandasForSortingCSV.read_csv("sorteddata.csv")
+csv_data = pd.read_csv("sorteddata.csv")
 
-rowcount = csvData.shape[0]
+rowcount = csv_data.shape[0]
 print("\nNumber of Rows:")
 print(rowcount)
 
@@ -56,8 +56,8 @@ f2 = open("source_modules/chunk2.js", "w")
 # generate datestamp, must be customized to reflect specific content and data schema of csv
 # we need some if/then logic here, but it's fussy
 def datetime():
-    date = str(csvData["Date"][1])
-    time = str(csvData["Time"][1])
+    date = str(csv_data["Date"][1])
+    time = str(csv_data["Time"][1])
 
     f2.write("var time = '")
     f2.write(time)
@@ -79,7 +79,7 @@ f2.write("\n")
 def readcolumn(col_name):
     for x in range(rowcount):
         f2.write('"')
-        value = str(csvData[col_name][x])
+        value = str(csv_data[col_name][x])
         f2.write(value)
         f2.write('",')
 

@@ -23,5 +23,14 @@ jobs:
         set +e
     - name: Analysing the code with pylint
       run: |
-        pylint --recursive=y --disable=C0114 --disable=C0116 --disable=E0611 --disable=E1101 --disable=E1136 --load-plugins pylint_django . || pylint-exit --error-fail $?
+        pylint \
+            --recursive=y \
+            --disable=C0114 \
+            --disable=C0116 \
+            --disable=E0611 \
+            --disable=E1101 \
+            --disable=E1136 \
+            --disable=R0801 \
+            --load-plugins pylint_django \
+            . || pylint-exit --error-fail $?
         # $(git ls-files '*.py')

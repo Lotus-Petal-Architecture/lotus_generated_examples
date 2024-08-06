@@ -44,6 +44,6 @@ jobs:
     - name: run default main py
       working-directory: lotus3D/source/python
       run: |
-        python 
+        python main.py 
         # $(git ls-files '*.py')
         # W0621 is a non-trivial issue

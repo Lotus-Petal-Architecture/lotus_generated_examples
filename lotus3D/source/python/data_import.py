@@ -43,14 +43,7 @@ rowcount = csvData.shape[0]
 print("\nNumber of Rows:")
 print(rowcount)
 
-# open copy of lotus renderer source code to insert array values
-lrg = open("../data_view/lotus_renderer_gen.js", "w")
-f1 = open("source_modules/chunk1.js", "r")
-lrg.write(f1.read())
-f1.close()
-lrg.close()
-
-lrg = open("../data_view/lotus_renderer_gen.js", "a")
+# open copy of chunk2.js to update dynamic values
 f2 = open("source_modules/chunk2.js", "w")
 
 # generate datestamp, must be customized to reflect specific content and data schema of csv
@@ -116,12 +109,3 @@ f2.write("\n")
 
 f2.close()
 
-# write remaining static js code to lotus_renderer_gen
-f2 = open("source_modules/chunk2.js", "r")
-lrg.write(f2.read())
-f2.close()
-
-f3 = open("source_modules/chunk3.js", "r")
-lrg.write(f3.read())
-f3.close()
-lrg.close()
